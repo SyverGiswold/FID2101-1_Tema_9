@@ -7,24 +7,29 @@ body {
 }
 
 header {
-  position: fixed;
+  top: 0;
   width: 100vw;
-  align-items: center;
   background: var(--primary-color);
-  color: var(--white);
-  contain: paint;
-  display: grid;
+  display: flex;
+  align-items: center;
   height: 54px;
-  padding: 0 var(--content-padding);
+  padding: 0 10%;
+  view-transition-name: header;
+  contain: layout;
+
+  >* {
+    text-decoration: none;
+    color: var(--white);
+  }
 }
 
 main {
   margin: 0 auto 0 auto;
   width: 80vw;
-  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: calc(100vh - 54px);
 
   >article {
     width: 35%;
@@ -44,83 +49,78 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr;
     justify-items: center;
-    max-width: 55%;
+    max-width: 50%;
 
-    >a img {
-      max-width: 100%;
-      max-height: 100%;
-      vertical-align: top;
+    >a {
+      position: relative;
+
+      >img {
+        max-width: 100%;
+        max-height: 100%;
+        vertical-align: top;
+        border-radius: 20px;
+      }
+
+      >span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #d4bbfff6;
+        border-radius: 20px;
+        opacity: 0;
+        transition: opacity 0.3s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+      }
+
+      &:hover >span {
+        opacity: 1; /* Show the span when the a tag is hovered */
+      }
     }
   }
 
   .project-section {
-    
-  }
-}
-
- .back-and-title {
-  align-items: center;
-  display: grid;
-  gap: 0.3rem;
-  grid-template-columns: 31px 1fr;
-  color: inherit;
-  text-decoration: none;
-}
-
-.back-icon {
-  display: block;
-  fill: var(--white);
-}
-
-@media (min-width: 530px) {
-  .content-and-nav {
-    display: grid;
-    grid-template-columns: 1fr 60vw;
-  }
-
-  .main-nav {
-    view-transition-name: main-nav;
+    max-width: 50%;
+    background-color: #d4bbff;
+    padding: 26px;
+    border-radius: 20px;
+    box-shadow: -10px 10px 10px black;
+    view-transition-name: project-section;
     contain: layout;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    scroll-behavior: smooth;
+
+      >img {
+        width: 100%;
+        border-radius: 20px;
+        scroll-snap-align: center;
+      }
   }
 }
 
-.main-nav {
-  background: #d4bbff;
-}
-
-.main-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-.main-nav li {
-  display: block;
-}
-
-.main-nav li a {
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  gap: 0.7rem;
-  padding: 1rem;
-  color: #000;
-  text-decoration: none;
-}
-
-.main-nav li a::before {
-  content: '➡️';
-}
-
-.main-header {
-  view-transition-name: main-header;
+.image-transition {
+  view-transition-name: image-transition;
   contain: layout;
 }
 
-.main-header-text {
-  view-transition-name: main-header-text;
-  contain: layout;
-  width: fit-content;
+.hidden {
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
-.main-nav {
-  box-shadow: -20px 20px 20px #00000030;
+.show {
+  opacity: 1;
 }
