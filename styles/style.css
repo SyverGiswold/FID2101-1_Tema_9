@@ -1,13 +1,14 @@
 body {
   margin: 0;
+  min-height: 100vh;
+  line-height: 1.5;
+  letter-spacing: 0.12rem;
+  word-spacing: 0.16rem;
 }
 
-main {
-  margin: 0 auto 0 auto;
-  width: 80vw;
-}
-
-.main-header {
+header {
+  position: fixed;
+  width: 100vw;
   align-items: center;
   background: var(--primary-color);
   color: var(--white);
@@ -17,7 +18,47 @@ main {
   padding: 0 var(--content-padding);
 }
 
-.back-and-title {
+main {
+  margin: 0 auto 0 auto;
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  >article {
+    width: 35%;
+
+    >h1 {
+      font-size: 40px;
+    }
+
+    >p {
+      margin-top: 2rem;
+    }
+  }
+
+  .gallery-Section {
+    display: grid;
+    grid-gap: 26px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+    max-width: 55%;
+
+    >a img {
+      max-width: 100%;
+      max-height: 100%;
+      vertical-align: top;
+    }
+  }
+
+  .project-section {
+    
+  }
+}
+
+ .back-and-title {
   align-items: center;
   display: grid;
   gap: 0.3rem;
@@ -26,37 +67,9 @@ main {
   text-decoration: none;
 }
 
-.content {
-  padding: var(--content-padding);
-}
-
-.content-title {
-  font-size: 1.6rem;
-  font-weight: 600;
-  margin: 0;
-  max-width: 43ch;
-}
-
 .back-icon {
   display: block;
   fill: var(--white);
-}
-
-
-.gallery-Section {
-  display: grid;
-  grid-gap: 26px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr;
-  justify-items: center;
-  max-width: 60vw;
-  margin: 0 0 0 auto;
-}
-
-.gallery-Section img {
-  max-width: 100%;
-  max-height: 100%;
-  vertical-align: top;
 }
 
 @media (min-width: 530px) {
