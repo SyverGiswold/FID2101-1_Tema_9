@@ -1,6 +1,6 @@
 // main.js
 import { getPageContent, onLinkNavigate } from './module/utils.js';
-import { observeImages } from './module/image-detecion.js';
+import { observeImages } from './module/image-observer.js';
 
 // Observe images as soon as the script runs
 observeImages();
