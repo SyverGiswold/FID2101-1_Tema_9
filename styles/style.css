@@ -107,4 +107,12 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+.hidden {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.show {
+  opacity: 1;
 }
