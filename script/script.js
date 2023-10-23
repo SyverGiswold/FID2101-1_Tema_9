@@ -1,5 +1,10 @@
 // main.js
-import { getPageContent, onLinkNavigate } from './module/utils.js';
+import { getPageContent, onLinkNavigate } from './modules/utils.js';
+import { observeImages } from './modules/image-observer.js';
+import { observer } from './modules/image-observer.js';
+
+// Observe images as soon as the script runs
+observeImages();
 
 onLinkNavigate(async ({ toPath }) => {
   const content = await getPageContent(toPath);
@@ -10,6 +15,9 @@ onLinkNavigate(async ({ toPath }) => {
     // or using a framework.
     // innerHTML is used here just to keep the DOM update super simple.
     document.body.innerHTML = content;  
+
+    // Observe images after each page transition
+    observeImages();
   });
 });
 
