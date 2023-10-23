@@ -16,7 +16,6 @@
 <header>
   <h3>Demo site</h3>
 </header>
-
 <main>
 
   <article>
