@@ -1,63 +1,59 @@
 <script>
-	import { onNavigate } from '$app/navigation'
-
-	onNavigate((navigation) => {
-		if (!document.startViewTransition) return
-
-		return new Promise((resolve) => {
-			document.startViewTransition(async () => {
-				resolve()
-				await navigation.complete
-			})
-		})
-	})
+	import Counter from './Counter.svelte';
+	import welcome from '$lib/images/svelte-welcome.webp';
+	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
-<header>
-  <h3>Demo site</h3>
-</header>
-<main>
+<svelte:head>
+	<title>Home</title>
+	<meta name="description" content="Svelte demo app" />
+</svelte:head>
 
-  <article>
-    <h1 class="content-title">Lorem ipsum dolor sit amet.</h1>
+<section>
+	<h1>
+		<span class="welcome">
+			<picture>
+				<source srcset={welcome} type="image/webp" />
+				<img src={welcome_fallback} alt="Welcome" />
+			</picture>
+		</span>
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus illo sunt reiciendis quaerat perferendis
-      magni velit veniam hic eos similique laudantium sint minima deleniti veritatis nesciunt corporis, aperiam
-      dolores tenetur enim. Ullam aut at reiciendis atque facilis architecto non corporis?
-    </p>
+		to your new<br />SvelteKit app
+	</h1>
 
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae necessitatibus doloribus, ipsum, et cumque
-      facilis iste temporibus hic at nam ipsam accusantium quasi neque! Vitae quae sint commodi obcaecati architecto
-      odit similique doloribus dolorum? Exercitationem earum voluptate sunt rerum tenetur.
-    </p>
-  </article>
+	<h2>
+		try editing <strong>src/routes/+page.svelte</strong>
+	</h2>
 
-  <section class="gallery-Section">
-    <a href="./about"><img src="https://syver-portfolio-oppgave.netlify.app/Assets/Reklame_plakat.webp"
-        alt="">
-        <span>Test 1</span>
-      </a>
-    <a href="./page-2.html"><img src="https://syver-portfolio-oppgave.netlify.app/Assets/Reklame_plakat.webp"
-        alt="">
-        <span>Test 2</span>
-      </a>
-    <a href="./page-2.html"><img src="https://syver-portfolio-oppgave.netlify.app/Assets/Reklame_plakat.webp"
-        alt="">
-        <span>Test 3</span>
-      </a>
-    <a href="./page-2.html"><img src="https://syver-portfolio-oppgave.netlify.app/Assets/Reklame_plakat.webp"
-        alt="">
-        <span>Test 4</span>
-      </a>
-  </section>
-
-</main>
+	<Counter />
+</section>
 
 <style>
-  @import '../reset.css';
-  @import '../variable.css';
-  @import '../style.css';
-  @import '../animation.css';
+	section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		flex: 0.6;
+	}
+
+	h1 {
+		width: 100%;
+	}
+
+	.welcome {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 0;
+		padding: 0 0 calc(100% * 495 / 2048) 0;
+	}
+
+	.welcome img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		display: block;
+	}
 </style>
