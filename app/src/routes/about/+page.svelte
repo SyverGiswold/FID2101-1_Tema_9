@@ -1,26 +1,67 @@
-<svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
-</svelte:head>
+<script>
+  	import { onNavigate } from '$app/navigation'
 
-<div class="text-column">
-	<h1>About this app</h1>
+onNavigate((navigation) => {
+  if (!document.startViewTransition) return
 
-	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
+  return new Promise((resolve) => {
+    document.startViewTransition(async () => {
+      resolve()
+      await navigation.complete
+    })
+  })
+})
+</script>
 
-	<pre>npm create svelte@latest</pre>
+<header>
+  <a href="./" class="back-and-title">
+    <h3 class="main-header-text">Reklame plakat</h3>
+  </a>
+</header>
+<main>
 
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
+  <article style="margin-bottom: 200vh;" class="project-article">
+    <div><h1>Artikkel 1</h1>
 
-	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
-	</p>
-</div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus illo sunt reiciendis quaerat perferendis
+      magni velit veniam hic eos similique laudantium sint minima deleniti veritatis nesciunt corporis, aperiam
+      dolores tenetur enim. Ullam aut at reiciendis atque facilis architecto non corporis?
+    </p>
+
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae necessitatibus doloribus, ipsum, et cumque
+      facilis iste temporibus hic at nam ipsam accusantium quasi neque! Vitae quae sint commodi obcaecati architecto
+      odit similique doloribus dolorum? Exercitationem earum voluptate sunt rerum tenetur.
+    </p>
+  </div>
+    <img class="image-transition" src="https://syver-portfolio-oppgave.netlify.app/Assets/Reklame_plakat.webp" alt="">
+  </article>
+
+  <article class="project-article">
+    <div><h1>Artikkel 2</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus illo sunt reiciendis quaerat perferendis
+      magni velit veniam hic eos similique laudantium sint minima deleniti veritatis nesciunt corporis, aperiam
+      dolores tenetur enim. Ullam aut at reiciendis atque facilis architecto non corporis?
+    </p>
+
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae necessitatibus doloribus, ipsum, et cumque
+      facilis iste temporibus hic at nam ipsam accusantium quasi neque! Vitae quae sint commodi obcaecati architecto
+      odit similique doloribus dolorum? Exercitationem earum voluptate sunt rerum tenetur.
+    </p>
+  </div>
+    <img src="https://syver-portfolio-oppgave.netlify.app/Assets/Reklame_plakat.webp" alt="">
+  </article>
+
+</main>
+
+<style>
+  main {
+    flex-direction: column;
+  }
+
+  
+</style>
