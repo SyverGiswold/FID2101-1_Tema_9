@@ -39,7 +39,7 @@
 
   <section class="gallery-section">
     <a href="./projects/project_1"
-      ><img class="image-transition" src="src\lib\images\Teksteditor_mockup.png" alt="" />
+      ><img class="image-transition" src="src\lib\images\teksteditor_mockup.png" alt="" />
       <span>Test 1</span>
     </a>
     <a href="./page-2.html"
