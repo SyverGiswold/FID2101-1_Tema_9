@@ -39,7 +39,7 @@
 
   <section class="gallery-section">
     <a href="./projects/project_1"
-      ><img class="image-transition" src="/assets/teksteditor_mockup.png" alt="" />
+      ><img class="image-transition" src="assets/teksteditor_mockup.png" alt="" />
       <span>Test 1</span>
     </a>
     <a href="./page-2.html"
@@ -69,6 +69,10 @@
 <style>
   main {
     min-height: calc(100vh - 80px);
+  }
+
+  img {
+    aspect-ratio: 1 / 1;
   }
   article {
     width: 35%;
