@@ -1,67 +1,93 @@
 <script>
-  	import { onNavigate } from '$app/navigation'
+  import Header from "../../Header.svelte";
 
-onNavigate((navigation) => {
-  if (!document.startViewTransition) return
+  import { onNavigate } from "$app/navigation";
 
-  return new Promise((resolve) => {
-    document.startViewTransition(async () => {
-      resolve()
-      await navigation.complete
-    })
-  })
-})
+  onNavigate((navigation) => {
+    if (!document.startViewTransition) return;
+
+    return new Promise((resolve) => {
+      document.startViewTransition(async () => {
+        resolve();
+        await navigation.complete;
+      });
+    });
+  });
 </script>
 
-<header>
-  <a href="./" class="back-and-title">
-    <h3 class="main-header-text">Reklame plakat</h3>
-  </a>
-</header>
+<Header activeLink="Om meg" />
+
 <main>
+  <article>
+    <div>
+      <h1 class="content-title">Kort om meg</h1>
 
-  <article style="margin-bottom: 200vh;" class="project-article">
-    <div><h1>Artikkel 1</h1>
+      <p>
+        Jeg er en interaksjonsdesign student som er lidenskapelig opptatt av å
+        skape brukervennlige og estetiske løsninger for digitale produkter. Jeg
+        har erfaring med å designe og utvikle interaktive prototyper,
+        brukertester, wireframes og mockups. Jeg har også interesse for frontend
+        utvikling og har lært meg HTML, CSS, og JavaScript.
+      </p>
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus illo sunt reiciendis quaerat perferendis
-      magni velit veniam hic eos similique laudantium sint minima deleniti veritatis nesciunt corporis, aperiam
-      dolores tenetur enim. Ullam aut at reiciendis atque facilis architecto non corporis?
-    </p>
-
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae necessitatibus doloribus, ipsum, et cumque
-      facilis iste temporibus hic at nam ipsam accusantium quasi neque! Vitae quae sint commodi obcaecati architecto
-      odit similique doloribus dolorum? Exercitationem earum voluptate sunt rerum tenetur.
-    </p>
-  </div>
-    <img class="image-transition" src="https://syver-portfolio-oppgave.netlify.app/Assets/Reklame_plakat.webp" alt="">
+      <p>
+        Jeg liker å utforske nye teknologier og trender, og å lære av andre
+        designere og utviklere. I porteføljen min kan du se noen av prosjektene
+        jeg har jobbet med, både individuelt og i team. Jeg håper du finner dem
+        interessante og inspirerende. Takk for at du besøker porteføljen min!
+      </p>
+    </div>
+    <img
+      src="src\lib\images\Syver_Giswold_04_12x12.jpg"
+      alt=""
+    />
   </article>
-
-  <article class="project-article">
-    <div><h1>Artikkel 2</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus illo sunt reiciendis quaerat perferendis
-      magni velit veniam hic eos similique laudantium sint minima deleniti veritatis nesciunt corporis, aperiam
-      dolores tenetur enim. Ullam aut at reiciendis atque facilis architecto non corporis?
-    </p>
-
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae necessitatibus doloribus, ipsum, et cumque
-      facilis iste temporibus hic at nam ipsam accusantium quasi neque! Vitae quae sint commodi obcaecati architecto
-      odit similique doloribus dolorum? Exercitationem earum voluptate sunt rerum tenetur.
-    </p>
-  </div>
-    <img src="https://syver-portfolio-oppgave.netlify.app/Assets/Reklame_plakat.webp" alt="">
-  </article>
-
 </main>
 
 <style>
+
   main {
-    flex-direction: column;
+    min-height: calc(100vh - 80px);
   }
 
+  p {
+    margin-top: 2rem;
+  }
+
+  div {
+    width: 35%;
+  }
+  article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  img {
+    max-width: 50%;
+  }
+
+  @media only screen and (max-width: 900px) {
+    main {
+      margin-top: 2rem;
+    }
   
+    div {
+      width: 100%;
+    }
+
+    img {
+      max-width: 75%;
+    }
+
+    article {
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    img {
+      max-width: 100%;
+    }
+  }
 </style>

@@ -13,8 +13,8 @@
 	}
 
 	* {
-		transition: 0.000001ms !important;
-		animation-duration: 0.000001ms !important;
+		transition: 0ms !important;
+		animation-duration: 0ms !important;
 	}
 
   ::view-transition-group(*),
