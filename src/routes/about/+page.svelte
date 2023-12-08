@@ -38,7 +38,7 @@
       </p>
     </div>
     <img
-      src="src\lib\images\Syver_Giswold_04_12x12.jpg"
+      src="/assets/Syver_Giswold_04_12x12.jpg"
       alt=""
     />
   </article>

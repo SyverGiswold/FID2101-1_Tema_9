@@ -62,10 +62,10 @@
     </div>
     <div class="link_icons">
       <a href="https://github.com/SyverGiswold" target="_blank"
-        ><img src="src\lib\images\github.svg" alt="" /></a
+        ><img src="/assets/github.svg" alt="" /></a
       >
       <a href="https://www.linkedin.com/in/syver-giswold/" target="_blank"
-        ><img src="src\lib\images\linkedin.svg" alt="" /></a
+        ><img src="/assets/linkedin.svg" alt="" /></a
       >
     </div>
   </section>
