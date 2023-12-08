@@ -27,7 +27,7 @@
   <article>
     <img
       class="image-transition"
-      src="..\src\lib\images\Teksteditor_mockup.png"
+      src="../assets/teksteditor_mockup.png"
       alt=""
     />
     <h1>Tema 8</h1>
