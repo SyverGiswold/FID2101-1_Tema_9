@@ -38,16 +38,21 @@
   </article>
 
   <section class="gallery-section">
-    <a href="./projects/project_1"
-      ><img class="image-transition" src="assets/teksteditor_mockup.png" alt="" />
-      <span>Test 1</span>
-    </a>
-    <a href="./page-2.html"
+    <a href="./projects/tema_8"
       ><img
-        src="https://syver-portfolio-oppgave.netlify.app/Assets/Reklame_plakat.webp"
+        class="image-transition-tema_8"
+        src="/assets/teksteditor_mockup.png"
         alt=""
       />
-      <span>Test 2</span>
+      <span>Tema 8</span>
+    </a>
+    <a href="./projects/tema_5"
+      ><img
+        class="image-transition-tema_5"
+        src="/assets/tema_5/Free_Laptop_Mockup.jpg"
+        alt=""
+      />
+      <span>Tema 5</span>
     </a>
     <a href="./page-2.html"
       ><img
@@ -73,23 +78,24 @@
 
   img {
     aspect-ratio: 1 / 1;
+    object-fit: cover;
   }
   article {
     width: 35%;
   }
 
   .gallery-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
-  max-width: 50%;
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    max-width: 50%;
+  }
 
-.gallery-section > a {
-  flex: 0 0 calc(50% - 24px);
-  position: relative;
-}
+  .gallery-section > a {
+    flex: 0 0 calc(50% - 24px);
+    position: relative;
+  }
 
   .gallery-section > a > img {
     max-width: 100%;
@@ -122,16 +128,16 @@
 
   @media (hover: hover) {
     .gallery-section > a:hover > span {
-    opacity: 1;
-  }
+      opacity: 1;
+    }
 
-  .gallery-section > a:focus > span {
-    opacity: 1;
-  }
+    .gallery-section > a:focus > span {
+      opacity: 1;
+    }
   }
 
   @media only screen and (max-width: 900px) {
-    main{
+    main {
       flex-direction: column;
     }
 

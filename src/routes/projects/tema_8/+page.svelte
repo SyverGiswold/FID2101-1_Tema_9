@@ -26,7 +26,7 @@
 <main>
   <article>
     <img
-      class="image-transition"
+      class="image-transition-tema_8"
       src="/assets/teksteditor_mockup.png"
       alt=""
     />
@@ -40,7 +40,7 @@
 
     <iframe width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FC5TjViSAMhCqRf18Zun8J0%2FTema-8%3Ftype%3Ddesign%26node-id%3D89%253A2%26mode%3Ddesign%26t%3DMHK3hrncRx2Z5mgd-1" allowfullscreen></iframe>
 
-    <p>Lenke til github repository: <a href="https://github.com/SyverGiswold/FID2101-1_Tema_9">https://github.com/SyverGiswold/FID2101-1_Tema_9</a></p>
+    <p>Lenke til github repository: <a href="https://github.com/SyverGiswold/FID1200-1_Team_8" target="_blank">https://github.com/SyverGiswold/FID2101-1_Tema_8</a></p>
 
     <Divider dividerText="Innsikt"></Divider>
 
@@ -487,7 +487,7 @@
 
   article > div {
     display: flex;
-    gap: 96px;
+    gap: 2rem;
     flex-grow: 0;
     flex-shrink: 0;
     align-items: flex-start;
@@ -499,7 +499,7 @@
   }
 
   div > * {
-    width: 50%;
+    width: calc(50% - 1rem);
   }
 
   .persona > p {

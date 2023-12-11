@@ -10,6 +10,7 @@ h2{
   align-items: center;
   text-align: center;
   margin-top: 4rem;
+  line-break: anywhere;
 }
 
 h2:before {
