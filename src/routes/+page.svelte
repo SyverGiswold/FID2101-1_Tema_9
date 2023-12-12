@@ -20,20 +20,18 @@
 <main>
   <article>
     <h1>Prosjekter</h1>
+    <p class="bold">Velkommen til porteføljen min!</p>
 
     <p>
-      Jeg er en interaksjonsdesign student som er lidenskapelig opptatt av å
-      skape brukervennlige og estetiske løsninger for digitale produkter. Jeg
-      har erfaring med å designe og utvikle interaktive prototyper,
-      brukertester, wireframes og mockups. Jeg har også interesse for frontend
-      utvikling og har lært meg HTML, CSS, og JavaScript.
+      Her kan du se noen av de spennende og kreative prosjektene jeg har jobbet
+      med som interaksjonsdesigner. Jeg har
+      kjennskap til verktøy som Figma, Webflow, HTML, CSS, JavaScript, Photoshop, Illustrator, Indesign, After Effects, og Premiere Pro.
     </p>
 
     <p>
-      Jeg liker å utforske nye teknologier og trender, og å lære av andre
-      designere og utviklere. I porteføljen min kan du se noen av prosjektene
-      jeg har jobbet med, både individuelt og i team. Jeg håper du finner dem
-      interessante og inspirerende. Takk for at du besøker porteføljen min!
+      Jeg håper du liker å utforske prosjektene mine og se hva jeg har lært og
+      oppnådd. Hvis du har noen spørsmål eller tilbakemeldinger så er det bare å
+      kontakte meg.
     </p>
   </article>
 
@@ -41,7 +39,7 @@
     <a href="./projects/tema_8"
       ><img
         class="image-transition-tema_8"
-        src="/assets/teksteditor_mockup.png"
+        src="/assets/tema_8/Teksteditor_mockup.webp"
         alt=""
       />
       <span>Tema 8</span>
@@ -49,7 +47,7 @@
     <a href="./projects/tema_5"
       ><img
         class="image-transition-tema_5"
-        src="/assets/tema_5/Free_Laptop_Mockup.jpg"
+        src="/assets/tema_5/Free_Laptop_Mockup.webp"
         alt=""
       />
       <span>Tema 5</span>

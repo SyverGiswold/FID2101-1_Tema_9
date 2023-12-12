@@ -33,12 +33,12 @@
       <p>
         Jeg liker å utforske nye teknologier og trender, og å lære av andre
         designere og utviklere. I porteføljen min kan du se noen av prosjektene
-        jeg har jobbet med, både individuelt og i team. Jeg håper du finner dem
-        interessante og inspirerende. Takk for at du besøker porteføljen min!
+        jeg har jobbet med. Jeg håper du finner dem
+        interessante.
       </p>
     </div>
     <img
-      src="/assets/Syver_Giswold_04_12x12.jpg"
+      src="/assets/Syver_Giswold_04_12x12.webp"
       alt=""
     />
   </article>

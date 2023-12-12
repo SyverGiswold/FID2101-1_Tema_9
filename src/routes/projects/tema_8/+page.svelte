@@ -27,7 +27,7 @@
   <article>
     <img
       class="image-transition-tema_8"
-      src="/assets/teksteditor_mockup.png"
+      src="/assets/tema_8/Teksteditor_mockup.webp"
       alt=""
     />
     <h1>Tema 8</h1>
@@ -62,7 +62,7 @@
       </p>
     </div>
 
-    <img src="/assets/Skjermbilde 2023-06-05 235900.png" alt="" />
+    <img src="/assets/tema_8/Skjermbilde 2023-06-05 235900.webp" alt="" />
 
     <div>
       <p>
@@ -75,7 +75,7 @@
         tid krevende delen.
       </p>
 
-      <img src="/assets/Skjermbilde 2023-06-06 000745.png" alt="" />
+      <img src="/assets/tema_8/Skjermbilde 2023-06-06 000745.webp" alt="" />
     </div>
 
     <h3>Programvaretesting</h3>
@@ -315,7 +315,7 @@
             <li>Bosted: Luleå, Sverige</li>
             <li>Yrke: Student</li>
           </ul>
-          <img src="/assets/Syver_Giswold_04_12x12_shv.jpg" alt="" />
+          <img src="/assets/tema_8/persona_1.webp" alt="" />
         </div>
         <p>
           <span class="bold">Hobbyer/Fritidsaktiviteter:</span> I tillegg til å
@@ -346,7 +346,7 @@
             <li>Bosted: Nessoden, Norge</li>
             <li>Yrke: Frontend utvikler/konsulent</li>
           </ul>
-          <img src="/assets/Syver_Giswold_04_12x12.jpg" alt="" />
+          <img src="/assets/tema_8/persona_2.webp" alt="" />
         </div>
         <p>
           <span class="bold">Hobbyer/Fritidsaktiviteter:</span> Per liker å
@@ -387,7 +387,7 @@
           inkluderte jeg også muligheten for å endre tekst størrelse.</span
         >
       </p>
-      <img src="/assets/Skjermbilde 2023-06-06 003512.png" alt="" />
+      <img src="/assets/tema_8/Skjermbilde 2023-06-06 003512.webp" alt="" />
     </div>
 
     <div>
@@ -433,14 +433,14 @@
           target="_blank">https://www.youtube.com/watch?v=T33NN_pPeNI&t=1s</a
         >
       </p>
-      <img src="/assets/Skjermbilde 2023-06-06 005736.png" alt="" />
+      <img src="/assets/tema_8/Skjermbilde 2023-06-06 005736.webp" alt="" />
     </div>
     <p>
       Når det kom til farger hadde jeg fått tilbakemelding at noen helst ville
       at nettsiden skulle være mørk så da valgte jeg å se på noen mørke farge
       paletter. Jeg valgte å bruke den siste farge paletten.
     </p>
-    <img src="/assets/Skjermbilde 2023-06-06 005443.png" alt="" />
+    <img src="/assets/tema_8/Skjermbilde 2023-06-06 005443.webp" alt="" />
     <div>
       <p>
         Når det kom til å lage landings siden var det ikke mange problemer jeg
@@ -455,7 +455,7 @@
         kompliserte funksjonen som ble igjen var å legge til bilder.
       </p>
     </div>
-    <img src="/assets/finished_website.png" alt="">
+    <img src="/assets/tema_8/finished_website.webp" alt="">
   </article>
 </main>
 

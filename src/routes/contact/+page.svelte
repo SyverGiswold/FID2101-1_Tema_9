@@ -1,7 +1,7 @@
 <script>
-  import VerticalDivider from '../../VerticalDivider.svelte';
+  import VerticalDivider from "../../VerticalDivider.svelte";
 
-  import Divider from '../../Divider.svelte';
+  import Divider from "../../Divider.svelte";
 
   import Header from "../../Header.svelte";
 
@@ -51,13 +51,16 @@
     <div>
       <p>
         Takk for at du besøker min portefølje. Jeg håper du likte å se på mine
-        arbeider og ferdigheter. Hvis du har lyst til å snakke med meg, så er du
-        hjertelig velkommen. Det bare å ta kontakt med meg.
+        arbeider og ferdigheter.
+      </p>
+      <p>
+        Hvis du har lyst til å snakke med meg, så er du hjertelig velkommen. Det
+        bare å ta kontakt med meg.
       </p>
       <ul>
-        <li><span>Tlf</span>971 04 751</li>
-        <li><span>E-post</span>SyverGiswold@gmail.com</li>
-        <li><span>Bosted</span>Sande i Vestfold</li>
+        <li><span class="bold">Tlf</span>971 04 751</li>
+        <li><span class="bold">E-post</span>SyverGiswold@gmail.com</li>
+        <li><span class="bold">Bosted</span>Sande i Vestfold</li>
       </ul>
     </div>
     <div class="link_icons">
@@ -75,11 +78,11 @@
       <input
         type="hidden"
         name="access_key"
-        value="cb5394bb-bd26-48bf-8202-f5f78aa2ddae"
+        value="0def2d92-843a-4f08-b8b9-7d7e00bf8cfd"
       />
       <div>
         <label for="name">Navn</label>
-        <input type="text" name="name" placeholder="Syver" required />
+        <input type="text" name="name" placeholder="Navn Navnesen" required />
       </div>
       <div>
         <label for="email">E-post</label>
@@ -92,7 +95,12 @@
       </div>
       <div>
         <label for="message">Melding</label>
-        <textarea name="message" placeholder="Send meg en melding" required rows="5" />
+        <textarea
+          name="message"
+          placeholder="Send meg en melding"
+          required
+          rows="5"
+        />
       </div>
       <input type="submit" value="Send inn" />
     </form>
@@ -186,7 +194,7 @@
     color: var(--tertiary-text);
   }
 
-  .status{
+  .status {
     display: block;
     height: 24px;
     margin-top: 24px;

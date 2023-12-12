@@ -27,7 +27,7 @@
   <article>
     <img
       class="image-transition-tema_5"
-      src="/assets/tema_5/Free_Laptop_Mockup.jpg"
+      src="/assets/tema_5/Free_Laptop_Mockup.webp"
       alt=""
     />
 
@@ -57,12 +57,12 @@
       handleliste applikasjonen skulle set ut. Både til mobil og dekstop format.
     </p>
     <div>
-      <img src="/assets/tema_5/Handleliste_desktop.jpg" alt="" />
-      <img src="/assets/tema_5/Handleliste_desktop_2.jpg" alt="" />
+      <img src="/assets/tema_5/Handleliste_desktop.webp" alt="" />
+      <img src="/assets/tema_5/Handleliste_desktop_2.webp" alt="" />
     </div>
     <div>
-      <img src="/assets/tema_5/Handleliste_telefon.jpg" alt="" />
-      <img src="/assets/tema_5/Handleliste_telefon_2.jpg" alt="" />
+      <img src="/assets/tema_5/Handleliste_telefon.webp" alt="" />
+      <img src="/assets/tema_5/Handleliste_telefon_2.webp" alt="" />
     </div>
 
     <Divider dividerText="Brukergrensesnitt"></Divider>
@@ -76,7 +76,7 @@
         >. Dette var fordi siden generere forskjellige fargepalett som jeg kan
         bruke som inspirasjon.
       </p>
-      <img src="/assets/tema_5/fargepalett.png" alt="" />
+      <img src="/assets/tema_5/fargepalett.webp" alt="" />
     </div>
     <h3>Font</h3>
     <div>
@@ -85,7 +85,7 @@
         som er lett leselig som var spesifikt designet for telefoner som passer
         bra til en handleliste nettside.
       </p>
-      <img src="/assets/tema_5/font.png" alt="" />
+      <img src="/assets/tema_5/font.webp" alt="" />
     </div>
     <h3>komponenter</h3>
     <div>
@@ -94,7 +94,7 @@
         skulle ha mange ikoner og da kunne det fort ta meg lengre tid å finne
         ikoner jeg kunne bruke på nett istedenfor å heller tegne dem selv.
       </p>
-      <img src="/assets/tema_5/komponenter.png" alt="" />
+      <img src="/assets/tema_5/komponenter.webp" alt="" />
     </div>
     <Divider dividerText="Prototype"></Divider>
     <div>
@@ -105,7 +105,7 @@
         ha det enkelt for alle å trykke på. Med store font størrelser i tillegg
         til at hele nettsiden er skalerbar til under 320px bredde.
       </p>
-      <img src="/assets/tema_5/prototype.png" alt="" />
+      <img src="/assets/tema_5/prototype.webp" alt="" />
     </div>
     <Divider dividerText="Nettside"></Divider>
     <div>
@@ -121,7 +121,7 @@
           problemer på telefon.</span
         >
       </p>
-      <img src="/assets/tema_5/søppel_knapp_js.png" alt="" />
+      <img src="/assets/tema_5/søppel_knapp_js.webp" alt="" />
     </div>
     <div>
       <p>
@@ -150,9 +150,9 @@
           mulig repetisjon.</span
         >
       </p>
-      <img src="/assets/tema_5/local_storage.png" alt="" />
+      <img src="/assets/tema_5/local_storage.webp" alt="" />
     </div>
-    <img src="/assets/tema_5/finished_website.png" alt="">
+    <img src="/assets/tema_5/finished_website.webp" alt="">
   </article>
 </main>
 
