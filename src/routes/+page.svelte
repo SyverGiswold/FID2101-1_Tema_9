@@ -52,20 +52,6 @@
       />
       <span>Tema 5</span>
     </a>
-    <a href="./page-2.html"
-      ><img
-        src="https://syver-portfolio-oppgave.netlify.app/Assets/Reklame_plakat.webp"
-        alt=""
-      />
-      <span>Test 3</span>
-    </a>
-    <a href="./page-2.html"
-      ><img
-        src="https://syver-portfolio-oppgave.netlify.app/Assets/Reklame_plakat.webp"
-        alt=""
-      />
-      <span>Test 4</span>
-    </a>
   </section>
 </main>
 
