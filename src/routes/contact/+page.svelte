@@ -80,6 +80,12 @@
         name="access_key"
         value="0def2d92-843a-4f08-b8b9-7d7e00bf8cfd"
       />
+      <input
+        type="checkbox"
+        name="botcheck"
+        class="hidden"
+        style="display: none;"
+      />
       <div>
         <label for="name">Navn</label>
         <input type="text" name="name" placeholder="Navn Navnesen" required />
