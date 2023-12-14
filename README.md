@@ -1,3 +1,13 @@
+# Hvordan kjøre nettsiden lokalt
+Sørg for at du har Node. js 16 eller nyere installert
+
+```bash
+npm install
+
+npm run dev -- --open
+```
+
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
