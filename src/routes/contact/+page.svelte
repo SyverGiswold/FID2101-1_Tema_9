@@ -20,12 +20,18 @@
 
   // Mail form script https://web3forms.com/platforms/svelte-contact-form
   let status = "";
+  let lastMessage = "";
   const handleSubmit = async (data) => {
-    status = "Sender...";
     const formData = new FormData(data.currentTarget);
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
+    // Check if the message is the same as the last one
+    if (object.message === lastMessage) {
+      return;
+    }
+
+    status = "Sender...";
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
@@ -38,6 +44,7 @@
     if (result.success) {
       console.log(result);
       status = result.message || "E-post Sent";
+      lastMessage = object.message; // Save the message as the last message
     }
   };
 </script>
