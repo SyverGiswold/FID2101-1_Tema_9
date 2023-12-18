@@ -4,8 +4,8 @@
 
 <header>
   <nav>
-    <a class="heading" href="../"><span>Syver Giswold</span></a>
-    <a class="link {activeLink === 'Hjem' ? 'active' : ''}" href="../">Hjem</a>
+    <a class="heading" href="/"><span>Syver Giswold</span></a>
+    <a class="link {activeLink === 'Hjem' ? 'active' : ''}" href="/">Hjem</a>
     <a class="link {activeLink === 'Om meg' ? 'active' : ''}" href="../about"
       >Om meg</a
     >

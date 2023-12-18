@@ -156,10 +156,5 @@
     ],
     "isEntry": true,
     "src": "src/routes/projects/tema_8/+page.svelte"
-  },
-  "src/routes/sitemap.xml/+server.js": {
-    "file": "entries/endpoints/sitemap.xml/_server.js",
-    "isEntry": true,
-    "src": "src/routes/sitemap.xml/+server.js"
   }
 }

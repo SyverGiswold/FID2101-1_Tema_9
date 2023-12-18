@@ -27,7 +27,7 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   if ($$props.activeLink === void 0 && $$bindings.activeLink && activeLink !== void 0)
     $$bindings.activeLink(activeLink);
   $$result.css.add(css);
-  return `<header class="svelte-ne8vap"><nav class="svelte-ne8vap"><a class="heading svelte-ne8vap" href="../" data-svelte-h="svelte-m7hu4l"><span class="svelte-ne8vap">Syver Giswold</span></a> <a class="${"link " + escape(activeLink === "Hjem" ? "active" : "", true) + " svelte-ne8vap"}" href="../">Hjem</a> <a class="${"link " + escape(activeLink === "Om meg" ? "active" : "", true) + " svelte-ne8vap"}" href="../about">Om meg</a> <a class="${"link " + escape(activeLink === "Kontakt" ? "active" : "", true) + " svelte-ne8vap"}" href="../contact">Kontakt</a></nav> </header>`;
+  return `<header class="svelte-ne8vap"><nav class="svelte-ne8vap"><a class="heading svelte-ne8vap" href="/" data-svelte-h="svelte-zewqv9"><span class="svelte-ne8vap">Syver Giswold</span></a> <a class="${"link " + escape(activeLink === "Hjem" ? "active" : "", true) + " svelte-ne8vap"}" href="/">Hjem</a> <a class="${"link " + escape(activeLink === "Om meg" ? "active" : "", true) + " svelte-ne8vap"}" href="../about">Om meg</a> <a class="${"link " + escape(activeLink === "Kontakt" ? "active" : "", true) + " svelte-ne8vap"}" href="../contact">Kontakt</a></nav> </header>`;
 });
 const onNavigate = /* @__PURE__ */ client_method("on_navigate");
 export {
