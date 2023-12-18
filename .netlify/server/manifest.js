@@ -7,22 +7,61 @@ function __memo(fn) {
 return {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["favicon.png","robots.txt"]),
-	mimeTypes: {".png":"image/png",".txt":"text/plain"},
+	assets: new Set(["assets/github.svg","assets/linkedin.svg","assets/svelte-logo.svg","assets/Syver_Giswold_04_12x12.jpg","assets/Syver_Giswold_04_12x12.webp","assets/tema_5/fargepalett.webp","assets/tema_5/finished_website.webp","assets/tema_5/font.webp","assets/tema_5/Free_Laptop_Mockup.webp","assets/tema_5/Handleliste_desktop.webp","assets/tema_5/Handleliste_desktop_2.webp","assets/tema_5/Handleliste_telefon.webp","assets/tema_5/Handleliste_telefon_2.webp","assets/tema_5/komponenter.webp","assets/tema_5/local_storage.webp","assets/tema_5/prototype.webp","assets/tema_5/søppel_knapp_js.webp","assets/tema_8/finished_website.webp","assets/tema_8/persona_1.webp","assets/tema_8/persona_2.webp","assets/tema_8/Skjermbilde 2023-06-05 235900.webp","assets/tema_8/Skjermbilde 2023-06-06 000745.webp","assets/tema_8/Skjermbilde 2023-06-06 002752.webp","assets/tema_8/Skjermbilde 2023-06-06 003512.webp","assets/tema_8/Skjermbilde 2023-06-06 005443.webp","assets/tema_8/Skjermbilde 2023-06-06 005736.webp","assets/tema_8/Teksteditor_mockup.webp","favicon.png","robots.txt"]),
+	mimeTypes: {".svg":"image/svg+xml",".jpg":"image/jpeg",".webp":"image/webp",".png":"image/png",".txt":"text/plain"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.6e4c2815.js","app":"_app/immutable/entry/app.2cb2106b.js","imports":["_app/immutable/entry/start.6e4c2815.js","_app/immutable/chunks/scheduler.cbf234a0.js","_app/immutable/chunks/singletons.1cf65abf.js","_app/immutable/chunks/index.14349a18.js","_app/immutable/chunks/parse.bee59afc.js","_app/immutable/entry/app.2cb2106b.js","_app/immutable/chunks/scheduler.cbf234a0.js","_app/immutable/chunks/index.200976ee.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.bfb75a73.js","app":"_app/immutable/entry/app.00420ba1.js","imports":["_app/immutable/entry/start.bfb75a73.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/singletons.554e10fe.js","_app/immutable/entry/app.00420ba1.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/index.3abede45.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
-			__memo(() => import('./nodes/4.js'))
+			__memo(() => import('./nodes/2.js')),
+			__memo(() => import('./nodes/3.js')),
+			__memo(() => import('./nodes/4.js')),
+			__memo(() => import('./nodes/5.js')),
+			__memo(() => import('./nodes/6.js'))
 		],
 		routes: [
 			{
-				id: "/sverdle",
-				pattern: /^\/sverdle\/?$/,
+				id: "/",
+				pattern: /^\/$/,
 				params: [],
 				page: { layouts: [0,], errors: [1,], leaf: 2 },
 				endpoint: null
+			},
+			{
+				id: "/about",
+				pattern: /^\/about\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 3 },
+				endpoint: null
+			},
+			{
+				id: "/contact",
+				pattern: /^\/contact\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 4 },
+				endpoint: null
+			},
+			{
+				id: "/projects/tema_5",
+				pattern: /^\/projects\/tema_5\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 5 },
+				endpoint: null
+			},
+			{
+				id: "/projects/tema_8",
+				pattern: /^\/projects\/tema_8\/?$/,
+				params: [],
+				page: { layouts: [0,], errors: [1,], leaf: 6 },
+				endpoint: null
+			},
+			{
+				id: "/sitemap.xml",
+				pattern: /^\/sitemap\.xml\/?$/,
+				params: [],
+				page: null,
+				endpoint: __memo(() => import('./entries/endpoints/sitemap.xml/_server.js'))
 			}
 		],
 		matchers: async () => {

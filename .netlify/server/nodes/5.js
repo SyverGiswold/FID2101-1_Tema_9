@@ -1,10 +1,8 @@
-import * as universal from '../entries/pages/sverdle/how-to-play/_page.js';
+
 
 export const index = 5;
 let component_cache;
-export const component = async () => component_cache ??= (await import('../entries/pages/sverdle/how-to-play/_page.svelte.js')).default;
-export { universal };
-export const universal_id = "src/routes/sverdle/how-to-play/+page.js";
-export const imports = ["_app/immutable/nodes/5.b8aa3391.js","_app/immutable/chunks/environment.9aa685ef.js","_app/immutable/chunks/scheduler.cbf234a0.js","_app/immutable/chunks/index.200976ee.js"];
-export const stylesheets = ["_app/immutable/assets/5.89a9e780.css"];
+export const component = async () => component_cache ??= (await import('../entries/pages/projects/tema_5/_page.svelte.js')).default;
+export const imports = ["_app/immutable/nodes/5.0b2a18f4.js","_app/immutable/chunks/scheduler.63274e7e.js","_app/immutable/chunks/index.3abede45.js","_app/immutable/chunks/Lede.fec83b7b.js","_app/immutable/chunks/navigation.51c72038.js","_app/immutable/chunks/singletons.554e10fe.js"];
+export const stylesheets = ["_app/immutable/assets/5.00b3b195.css","_app/immutable/assets/Divider.b899c9c3.css","_app/immutable/assets/Lede.97b66705.css","_app/immutable/assets/navigation.538c35ed.css"];
 export const fonts = [];

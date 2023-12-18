@@ -1,4 +1,4 @@
-import { c as create_ssr_component, s as setContext, v as validate_component, m as missing_component } from "./ssr.js";
+import { c as create_ssr_component, a as setContext, v as validate_component, m as missing_component } from "./ssr.js";
 let base = "";
 let assets = base;
 const initial = { base, assets };
@@ -106,8 +106,17 @@ const options = {
   root: Root,
   service_worker: false,
   templates: {
-    app: ({ head, body, assets: assets2, nonce, env }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		' + head + '\n	</head>\n	<body data-sveltekit-preload-data="hover">\n		<div style="display: contents">' + body + "</div>\n	</body>\n</html>\n",
-    error: ({ status, message }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
+    app: ({ head, body, assets: assets2, nonce, env }) => `<!DOCTYPE html>\r
+<html lang="no">\r
+\r
+<head>\r
+	<meta charset="utf-8" />\r
+	<link rel="icon" href="/assets/svelte-logo.svg" />\r
+	<meta name="viewport" content="width=device-width, initial-scale=1" />\r
+	<title>Syver's portefølje</title>\r
+	<meta name="google-site-verification" content="8pVAefdP7SpKYDbrDTMv2VyqoTrwD7FGwats91aqQ-M" />\r
+	` + head + '\r\n</head>\r\n\r\n<body data-sveltekit-preload-data="hover">\r\n	<div style="display: contents">' + body + "</div>\r\n</body>\r\n\r\n</html>",
+    error: ({ status, message }) => '<!doctype html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
 			body {
@@ -116,8 +125,18 @@ const options = {
 				--divider: #ccc;
 				background: var(--bg);
 				color: var(--fg);
-				font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-					Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+				font-family:
+					system-ui,
+					-apple-system,
+					BlinkMacSystemFont,
+					'Segoe UI',
+					Roboto,
+					Oxygen,
+					Ubuntu,
+					Cantarell,
+					'Open Sans',
+					'Helvetica Neue',
+					sans-serif;
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -168,7 +187,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "1mcfwov"
+  version_hash: "1reqx21"
 };
 function get_hooks() {
   return {};
