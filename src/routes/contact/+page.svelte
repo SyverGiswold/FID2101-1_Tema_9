@@ -43,7 +43,7 @@
     const result = await response.json();
     if (result.success) {
       console.log(result);
-      status = result.message || "E-post Sent";
+      status = "E-post Sent!";
       lastMessage = object.message; // Save the message as the last message
     }
   };
