@@ -1,6 +1,5 @@
 import { c as create_ssr_component, v as validate_component } from "../../../chunks/ssr.js";
 import { o as onNavigate, H as Header } from "../../../chunks/navigation.js";
-const _page_svelte_svelte_type_style_lang = "";
 const css = {
   code: "main.svelte-6dwaan{min-height:calc(100vh - 80px)}p.svelte-6dwaan{margin-top:2rem}div.svelte-6dwaan{width:35%}article.svelte-6dwaan{display:flex;justify-content:space-between;align-items:center}img.svelte-6dwaan{max-width:50%}@media only screen and (max-width: 900px){main.svelte-6dwaan{margin-top:2rem}div.svelte-6dwaan{width:100%}img.svelte-6dwaan{max-width:75%}article.svelte-6dwaan{flex-direction:column}}@media only screen and (max-width: 650px){img.svelte-6dwaan{max-width:100%}}",
   map: null

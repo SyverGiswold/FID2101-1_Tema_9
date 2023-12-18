@@ -1,7 +1,7 @@
 import { c as create_ssr_component, v as validate_component } from "../../../../chunks/ssr.js";
 import { L as Lede, D as Divider } from "../../../../chunks/Lede.js";
 import { o as onNavigate, H as Header } from "../../../../chunks/navigation.js";
-/* empty css                                                        */const _page_svelte_svelte_type_style_lang = "";
+/* empty css                                                       */
 const css = {
   code: "main.svelte-1q5sl58.svelte-1q5sl58{display:block}iframe.svelte-1q5sl58.svelte-1q5sl58{border:1px solid var(--secondary-background);border-radius:var(--border-radius)}article.svelte-1q5sl58>.svelte-1q5sl58{margin-top:2rem}h1.svelte-1q5sl58.svelte-1q5sl58,h3.svelte-1q5sl58.svelte-1q5sl58{margin-top:4rem}article.svelte-1q5sl58.svelte-1q5sl58{padding:48px 0}article.svelte-1q5sl58>div.svelte-1q5sl58{display:flex;gap:2rem;flex-grow:0;flex-shrink:0;align-items:flex-start}div.svelte-1q5sl58>.svelte-1q5sl58{width:calc(50% - 1rem)}p.svelte-1q5sl58.svelte-1q5sl58{width:100%}a.svelte-1q5sl58.svelte-1q5sl58{color:var(--primary-color);font-weight:700;line-break:anywhere}@media only screen and (max-width: 750px){article.svelte-1q5sl58>div.svelte-1q5sl58{flex-direction:column}div.svelte-1q5sl58>.svelte-1q5sl58{width:100%}}",
   map: null
