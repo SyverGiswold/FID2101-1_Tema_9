@@ -1,5 +1,5 @@
 # Hvordan kjøre nettsiden lokalt
-Sørg for at du har Node. js 16 eller nyere installert
+Sørg for at du har Node. js 18 eller nyere installert
 
 ```bash
 npm install
