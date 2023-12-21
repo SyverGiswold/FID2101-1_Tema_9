@@ -30,7 +30,7 @@
   <meta property="og:url" content="https://syver-g.netlify.app/"/>
   <meta property="og:description" content="Utforsk porteføljen til Syver Giswold, en dedikert interaksjonsdesigner med fokus på frontend-utvikling. Se gjennom prosjekter som viser ferdigheter i brukergrensesnitt design, brukeropplevelse design, og mer." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="/static/assets/Syver_Giswold_04_12x12.webp" />
+  <meta property="og:image" content="https://syver-g.netlify.app/assets/Syver_Giswold_04_12x12.webp" />
 </svelte:head>
 
 <Header activeLink="Hjem" />
