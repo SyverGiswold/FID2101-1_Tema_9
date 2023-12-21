@@ -15,6 +15,17 @@
   });
 </script>
 
+<svelte:head>
+  <meta
+    name="description"
+    content="Utforsk porteføljen til Syver Giswold, en dedikert interaksjonsdesigner med fokus på frontend-utvikling. Se gjennom prosjekter som viser ferdigheter i brukergrensesnitt design, brukeropplevelse design, og mer."
+  />
+  <meta
+    name="keywords"
+    content="design ui, portefølje design, portefølje grafisk design, ux og ui design, ux og ui, ui og ux, ux, ui, Interaksjonsdesign, Brukergrensesnitt design, Brukeropplevelse design, Frontend utvikling, JavaScript, CSS, HTML, Responsive design, Webdesign, Webutvikling, Prototyping, Brukertesting, Designsystemer, Designprinsipper, Tilgjengelighet, Kreativ problemløsning"
+  />
+</svelte:head>
+
 <Header activeLink="Hjem" />
 
 <main>
@@ -24,8 +35,9 @@
 
     <p>
       Her kan du se noen av de spennende og kreative prosjektene jeg har jobbet
-      med som interaksjonsdesigner. Jeg har
-      kjennskap til verktøy som Figma, Webflow, HTML, CSS, JavaScript, Photoshop, Illustrator, Indesign, After Effects, og Premiere Pro.
+      med som interaksjonsdesigner. Jeg har kjennskap til verktøy som Figma,
+      Webflow, HTML, CSS, JavaScript, Photoshop, Illustrator, Indesign, After
+      Effects, og Premiere Pro.
     </p>
 
     <p>
