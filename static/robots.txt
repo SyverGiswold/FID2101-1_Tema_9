@@ -3,3 +3,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://syver-g.netlify.app/sitemap.xml
+
+Sitemap: https://syver-g.netlify.app/sitemap.txt
