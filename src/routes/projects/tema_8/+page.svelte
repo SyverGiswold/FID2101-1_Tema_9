@@ -30,7 +30,7 @@
       src="/assets/tema_8/Teksteditor_mockup.webp"
       alt=""
     />
-    <h1>Tema 8</h1>
+    <h1>Tekst applikasjon</h1>
     <div>
       <Lede
         ledeText="I denne oppgaven valgte jeg å ta for meg oppgaven å lage en rich text
@@ -55,6 +55,12 @@
       Lenke til github repository: <a
         href="https://github.com/SyverGiswold/FID1200-1_Team_8"
         target="_blank">https://github.com/SyverGiswold/FID2101-1_Tema_8</a
+      >
+    </p>
+    <p>
+      Lenke til demo side: <a
+        href="https://fid1200-1-tema-8.netlify.app/"
+        target="_blank">https://fid1200-1-tema-8.netlify.app/</a
       >
     </p>
 

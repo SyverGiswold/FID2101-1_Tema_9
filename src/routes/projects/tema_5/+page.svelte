@@ -31,14 +31,15 @@
       alt=""
     />
 
-    <h1>Tema 5</h1>
+    <h1>Handleliste applikasjon</h1>
 
     <div>
       <Lede
         ledeText="I tema 5 oppgaven gikk ut på å lage en handle liste applikasjon i javascript"
       />
       <p>
-        Dette prosjektet var gjennomført indeviduelt over en periode av 6 uker og var første introduksjon jeg hadde for javascript.
+        Dette prosjektet var gjennomført indeviduelt over en periode av 6 uker
+        og var første introduksjon jeg hadde for javascript.
       </p>
     </div>
 
@@ -53,6 +54,12 @@
       Lenke til github repository: <a
         href="https://github.com/SyverGiswold/FID1200-1_Team_5"
         target="_blank">https://github.com/SyverGiswold/FID1200-1_Team_5</a
+      >
+    </p>
+    <p>
+      Lenke til demo side: <a
+        href="https://fid1200-1-tema-5-shopping-list.netlify.app/"
+        target="_blank">https://fid1200-1-tema-5-shopping-list.netlify.app/</a
       >
     </p>
 
