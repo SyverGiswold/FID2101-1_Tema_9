@@ -13,6 +13,11 @@
     background-color: var(--secondary-background);
     padding: 1.5rem;
     border-radius: var(--border-radius);
+    width: 100%;
+  }
+
+  p {
+    margin-top: 0;
   }
 </style>
 

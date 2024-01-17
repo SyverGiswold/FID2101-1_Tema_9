@@ -33,12 +33,18 @@
 
     <h1>Tema 5</h1>
 
-    <Lede
-      ledeText="I tema 5 oppgaven gikk ut på å lage en handle liste applikasjon i javascript"
-    ></Lede>
+    <div>
+      <Lede
+        ledeText="I tema 5 oppgaven gikk ut på å lage en handle liste applikasjon i javascript"
+      />
+      <p>
+        Dette prosjektet var gjennomført indeviduelt over en periode av 6 uker og var første introduksjon jeg hadde for javascript.
+      </p>
+    </div>
+
     <iframe
       width="100%"
-      height="450"
+      height="600"
       src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fc00zwz6qMCZVSkeP7jgpso%2FTema-5%3Ftype%3Ddesign%26node-id%3D4%253A62%26mode%3Ddesign%26t%3D2zN7YQyqJhYaXh2t-1"
       allowfullscreen
     ></iframe>
@@ -129,21 +135,23 @@
         mulig for folk å bruke nettsiden legge til tingene de skal kjøpe også
         senere åpne nettsiden igjen får å hentet tilbake samme liste.
       </p>
-      <p>For meg var det ganske problematisk å få lagd local storage i denne
-        oppgaven fordi jeg aldri har jobbet med JavaScript før denne oppgaven
-        i tillegg måtte jeg lage en array ut av alt jeg skulle lagre i local
-        storage.</p>
+      <p>
+        For meg var det ganske problematisk å få lagd local storage i denne
+        oppgaven fordi jeg aldri har jobbet med JavaScript før denne oppgaven i
+        tillegg måtte jeg lage en array ut av alt jeg skulle lagre i local
+        storage.
+      </p>
     </div>
     <div>
       <p>
         Originalt når jeg implementerte local storage lagret jeg bare html, men
         siden det er en usikker måte å gjøre det på måtte jeg finne andre
         løsninger og da ble svaret å konvertere elementer fra html filen over
-        til string. Første variant av dette hadde jeg to funksjoner til å
-         legge til elementer i html og en for å ta html elementene og
-        konvertere det over til string som ble lagret i local storage. Dette var
-        et ueffektivt system der jeg måtte repetere alt jeg hadde i html og local
-        storage funksjon to ganger.
+        til string. Første variant av dette hadde jeg to funksjoner til å legge
+        til elementer i html og en for å ta html elementene og konvertere det
+        over til string som ble lagret i local storage. Dette var et ueffektivt
+        system der jeg måtte repetere alt jeg hadde i html og local storage
+        funksjon to ganger.
         <span class="line-break"
           >I den siste versjonen jeg bruker nå har jeg fått blandet html
           funksjonen sammen med local storage funksjonen sånn at jeg ungår mest
@@ -152,7 +160,7 @@
       </p>
       <img src="/assets/tema_5/local_storage.webp" alt="" />
     </div>
-    <img src="/assets/tema_5/finished_website.webp" alt="">
+    <img src="/assets/tema_5/finished_website.webp" alt="" />
   </article>
 </main>
 

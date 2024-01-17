@@ -31,16 +31,32 @@
       alt=""
     />
     <h1>Tema 8</h1>
+    <div>
+      <Lede
+        ledeText="I denne oppgaven valgte jeg å ta for meg oppgaven å lage en rich text
+          editor tilsvarende til TinyMCE og CKEditor som skulle være brukbare med
+          kun tastatur."
+      />
+      <p>
+        Dette prosjektet var gjennomført indeviduelt over en periode av 6 uker.
+        Dette var en oppgave jeg selv valgte å utfordre meg med og for å lære
+        meg mer om javascript
+      </p>
+    </div>
 
-    <Lede
-      ledeText="I denne oppgaven valgte jeg å ta for meg oppgaven å lage en rich text
-      editor tilsvarende til TinyMCE og CKEditor som skulle være brukbare med
-      kun tastatur."
-    ></Lede>
+    <iframe
+      width="100%"
+      height="600"
+      src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FC5TjViSAMhCqRf18Zun8J0%2FTema-8%3Ftype%3Ddesign%26node-id%3D89%253A2%26mode%3Ddesign%26t%3DMHK3hrncRx2Z5mgd-1"
+      allowfullscreen
+    ></iframe>
 
-    <iframe width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FC5TjViSAMhCqRf18Zun8J0%2FTema-8%3Ftype%3Ddesign%26node-id%3D89%253A2%26mode%3Ddesign%26t%3DMHK3hrncRx2Z5mgd-1" allowfullscreen></iframe>
-
-    <p>Lenke til github repository: <a href="https://github.com/SyverGiswold/FID1200-1_Team_8" target="_blank">https://github.com/SyverGiswold/FID2101-1_Tema_8</a></p>
+    <p>
+      Lenke til github repository: <a
+        href="https://github.com/SyverGiswold/FID1200-1_Team_8"
+        target="_blank">https://github.com/SyverGiswold/FID2101-1_Tema_8</a
+      >
+    </p>
 
     <Divider dividerText="Innsikt"></Divider>
 
@@ -455,7 +471,7 @@
         kompliserte funksjonen som ble igjen var å legge til bilder.
       </p>
     </div>
-    <img src="/assets/tema_8/finished_website.webp" alt="">
+    <img src="/assets/tema_8/finished_website.webp" alt="" />
   </article>
 </main>
 

@@ -46,7 +46,7 @@
     left: 0;
     background: linear-gradient(180deg, var(--primary-background), transparent);
     pointer-events: none;
-    height: 100px;
+    height: 50px;
   }
 
   nav {

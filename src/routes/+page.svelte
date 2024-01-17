@@ -1,5 +1,6 @@
 <script>
   import Header from "../Header.svelte";
+  import Card from "../Card.svelte";
 
   import { onNavigate } from "$app/navigation";
 
@@ -69,22 +70,24 @@
   </article>
 
   <section class="gallery-section">
-    <a href="./projects/tema_8"
-      ><img
-        class="image-transition-tema_8"
-        src="/assets/tema_8/Teksteditor_mockup.webp"
-        alt=""
-      />
-      <span>Tema 8</span>
-    </a>
-    <a href="./projects/tema_5"
-      ><img
-        class="image-transition-tema_5"
-        src="/assets/tema_5/Free_Laptop_Mockup.webp"
-        alt=""
-      />
-      <span>Tema 5</span>
-    </a>
+    <Card
+      link="./projects/tema_8"
+      src="/assets/tema_8/Teksteditor_mockup.webp"
+      image_transition="image-transition-tema_8"
+      title="Tekst applikasjon"
+      lede="I denne oppgaven valgte jeg å ta for meg oppgaven å lage en rich text editor tilsvarende til TinyMCE og CKEditor som skulle være brukbare med kun tastatur."
+      executed="Individuelt"
+      period="6 uker"
+    />
+    <Card
+      link="./projects/tema_5"
+      src="https://raw.githubusercontent.com/SyverGiswold/FID2101-1_Tema_9/main/static/assets/tema_5/Free_Laptop_Mockup.webp"
+      image_transition="image-transition-tema_5"
+      title="Handleliste applikasjon"
+      lede="I tema 5 oppgaven gikk ut på å lage en handle liste applikasjon i javascript"
+      executed="Individuelt"
+      period="6 uker"
+    />
   </section>
 </main>
 
@@ -93,10 +96,6 @@
     min-height: calc(100vh - 80px);
   }
 
-  img {
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-  }
   article {
     width: 35%;
   }
@@ -106,52 +105,28 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
-    max-width: 50%;
-  }
-
-  .gallery-section > a {
-    flex: 0 0 calc(50% - 24px);
-    position: relative;
-  }
-
-  .gallery-section > a > img {
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: top;
-  }
-
-  a > span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--secondary-background);
-    color: var(--tertiary-text);
-    border-radius: var(--border-radius);
-    opacity: 0;
-    transition: opacity 0.3s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
-    font-size: var(--h4);
+    max-width: 60%;
   }
 
   p {
     margin-top: 2rem;
   }
 
-  @media (hover: hover) {
-    .gallery-section > a:hover > span {
-      opacity: 1;
+  @media only screen and (max-width: 1300px) {
+    main {
+      flex-direction: column;
+    } 
+
+    article {
+      width: 100%;
+      margin-top: 2rem;
     }
 
-    .gallery-section > a:focus > span {
-      opacity: 1;
+    .gallery-section {
+      max-width: 100%;
+      margin-top: 2rem;
     }
-  }
+}
 
   @media only screen and (max-width: 900px) {
     main {
@@ -167,23 +142,15 @@
       max-width: 100%;
       margin-top: 2rem;
     }
-
-    img {
-      margin-top: 0;
-    }
   }
 
-  @media only screen and (max-width: 650px) {
-    .gallery-section > a {
-      flex: auto;
+  @media only screen and (max-width: 755px) {
+    .gallery-section {
+      flex-direction: column;
     }
   }
 
   @media only screen and (max-width: 375px) {
-    .gallery-section > a {
-      flex: auto;
-    }
-
     h1 {
       line-break: anywhere;
     }
