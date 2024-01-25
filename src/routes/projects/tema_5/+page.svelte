@@ -1,11 +1,11 @@
 <script>
-  import Lede from "../../../Lede.svelte";
+  import Lede from "$lib/components/Lede.svelte";
 
-  import Divider from "../../../Divider.svelte";
+  import Divider from "$lib/components/Divider.svelte";
 
   import Header from "$lib/components/Header.svelte";
 
-  import VerticalDivider from "../../../VerticalDivider.svelte";
+  import VerticalDivider from "$lib/components/VerticalDivider.svelte";
 </script>
 
 <Header />
@@ -18,21 +18,16 @@
       alt=""
     />
 
-    <h1>Handleliste applikasjon</h1>
+    <h1>Handleliste app</h1>
 
     <div>
       <Lede
-        ledeText="I tema 5 oppgaven gikk ut på å lage en handle liste applikasjon i javascript"
+        ledeText="I tema 5 oppgaven gikk ut på å lage en handleliste applikasjon i javascript"
       />
-      <p>
-        Dette prosjektet var gjennomført indeviduelt over en periode av 6 uker
-        og var første introduksjon jeg hadde for javascript.
-      </p>
     </div>
 
     <iframe
-      width="100%"
-      height="600"
+      title="Figma prosjekt fil"
       src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fc00zwz6qMCZVSkeP7jgpso%2FTema-5%3Ftype%3Ddesign%26node-id%3D4%253A62%26mode%3Ddesign%26t%3D2zN7YQyqJhYaXh2t-1"
       allowfullscreen
     ></iframe>
@@ -166,6 +161,9 @@
   iframe {
     border: 1px solid var(--secondary-background);
     border-radius: var(--border-radius);
+    width: 100%;
+    height: 600px;
+    max-height: 80vh;
   }
 
   article > * {

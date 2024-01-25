@@ -2,7 +2,7 @@
   import Header from "$lib/components/Header.svelte";
 </script>
 
-<Header activeLink="Om meg" />
+<Header activeLink="about" />
 
 <main>
   <article>

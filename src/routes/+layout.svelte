@@ -13,7 +13,7 @@
   });
 </script>
 
-<slot></slot>
+<slot />
 
 <style>
   @import "../reset.css";

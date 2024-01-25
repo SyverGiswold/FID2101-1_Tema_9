@@ -4,13 +4,13 @@
 
 <header>
   <nav>
-    <a class="heading" href="/"><span>Syver Giswold</span></a>
-    <a class="link {activeLink === 'home' ? 'active' : ''}" href="/">Hjem</a>
-    <a class="link {activeLink === 'about' ? 'active' : ''}" href="../about"
-      >Om meg</a
+    <a class="heading" href="/en"><span>Syver Giswold</span></a>
+    <a class="link {activeLink === 'home' ? 'active' : ''}" href="/en">Home</a>
+    <a class="link {activeLink === 'about' ? 'active' : ''}" href="../en/about"
+      >About</a
     >
-    <a class="link {activeLink === 'contact' ? 'active' : ''}" href="../contact"
-      >Kontakt</a
+    <a class="link {activeLink === 'contact' ? 'active' : ''}" href="../en/contact"
+      >Contact</a
     >
   </nav>
 </header>

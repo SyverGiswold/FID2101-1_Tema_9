@@ -36,7 +36,6 @@
 
 	img{
 		max-width: 100%;
-		border-radius: 24px;
     object-fit: cover;
 	}
 
@@ -56,6 +55,7 @@
   @media only screen and (max-width: 750px) {
     .card {
       flex: 1;
+			width: 100%;
     }
   }
 

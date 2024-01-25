@@ -1,6 +1,6 @@
 <script>
   import Header from "$lib/components/Header.svelte";
-  import Card from "../Card.svelte";
+  import Card from "$lib/components/Card.svelte";
 </script>
 
 <svelte:head>
@@ -35,7 +35,7 @@
 <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 </svelte:head>
 
-<Header activeLink="Hjem" />
+<Header activeLink="home" />
 
 <main>
   <article>
@@ -61,8 +61,8 @@
       link="./projects/tema_8"
       src="/assets/tema_8/Teksteditor_mockup.webp"
       image_transition="image-transition-tema_8"
-      title="Tekst applikasjon"
-      lede="I denne oppgaven valgte jeg å ta for meg oppgaven å lage en rich text editor tilsvarende til TinyMCE og CKEditor som skulle være brukbare med kun tastatur."
+      title="Tekst app"
+      lede="I denne oppgaven valgte jeg å lage en rich text editor tilsvarende til TinyMCE og CKEditor som skulle være brukbare med kun tastatur."
       executed="Individuelt"
       period="6 uker"
     />
@@ -70,8 +70,8 @@
       link="./projects/tema_5"
       src="https://raw.githubusercontent.com/SyverGiswold/FID2101-1_Tema_9/main/static/assets/tema_5/Free_Laptop_Mockup.webp"
       image_transition="image-transition-tema_5"
-      title="Handleliste applikasjon"
-      lede="I tema 5 oppgaven gikk ut på å lage en handle liste applikasjon i javascript"
+      title="Handleliste app"
+      lede="Denne oppgaven gikk ut på å lære Javascript og å lage en handle liste applikasjon i javascript."
       executed="Individuelt"
       period="6 uker"
     />

@@ -1,9 +1,5 @@
 <script>
-  import Header from "$lib/components/Header.svelte";
-
-  import VerticalDivider from "$lib/components/VerticalDivider.svelte";
-
-  import Divider from "$lib/components/Divider.svelte";
+  import Header from "$lib/components/english/Header.svelte";
 
   // Mail form script https://web3forms.com/platforms/svelte-contact-form
   let status = "";
@@ -18,7 +14,7 @@
       return;
     }
 
-    status = "Sender...";
+    status = "Sending...";
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
@@ -30,7 +26,7 @@
     const result = await response.json();
     if (result.success) {
       console.log(result);
-      status = "E-post Sent!";
+      status = "E-mail Sent!";
       lastMessage = object.message; // Save the message as the last message
     }
   };
@@ -40,29 +36,28 @@
 
 <main>
   <section>
-    <h1>Kontakt info</h1>
+    <h1>Contact info</h1>
 
     <div>
       <p>
-        Takk for at du besøker min portefølje. Jeg håper du likte å se på mine
-        arbeider og ferdigheter.
+        Thank you for visiting my portfolio. I hope you enjoyed looking at my
+        work and skills.
       </p>
       <p>
-        Hvis du har lyst til å snakke med meg, så er du hjertelig velkommen. Det
-        bare å ta kontakt med meg.
+        If you would like to talk to me, you are most welcome. Just feel free to contact me.
       </p>
       <ul>
-        <li><span class="bold">Tlf</span>971 04 751</li>
-        <li><span class="bold">E-post</span>SyverGiswold@gmail.com</li>
-        <li><span class="bold">Bosted</span>Sande i Vestfold</li>
+        <li><span class="bold">Cell</span>971 04 751</li>
+        <li><span class="bold">E-mail</span>SyverGiswold@gmail.com</li>
+        <li><span class="bold">Location</span>Sande in Vestfold</li>
       </ul>
     </div>
     <div class="link_icons">
       <a href="https://github.com/SyverGiswold" target="_blank"
-        ><img src="/assets/github.svg" alt="lenke til github" /></a
+        ><img src="/assets/github.svg" alt="link to github" /></a
       >
       <a href="https://www.linkedin.com/in/syver-giswold/" target="_blank"
-        ><img src="/assets/linkedin.svg" alt="lenke til linkedin" /></a
+        ><img src="/assets/linkedin.svg" alt="link to linkedin" /></a
       >
     </div>
   </section>
@@ -81,30 +76,36 @@
         style="display: none;"
       />
       <div>
-        <label for="name">Navn</label>
-        <input id="name" type="text" name="name" placeholder="Navn Navnesen" required />
+        <label for="name">Name</label>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="John Doe"
+          required
+        />
       </div>
       <div>
-        <label for="email">E-post</label>
+        <label for="email">E-mail</label>
         <input
           id="email"
           type="email"
           name="email"
-          placeholder="eksempel@e-post.no"
+          placeholder="example@e-mail.com"
           required
         />
       </div>
       <div>
-        <label for="message">Melding</label>
+        <label for="message">Message</label>
         <textarea
           id="message"
           name="message"
-          placeholder="Send meg en melding"
+          placeholder="Send me a message!"
           required
           rows="5"
         />
       </div>
-      <input type="submit" value="Send inn" />
+      <input type="submit" value="Send" />
     </form>
 
     <div class="status">{status}</div>

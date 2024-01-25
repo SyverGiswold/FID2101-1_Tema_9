@@ -1,11 +1,11 @@
 <script>
-  import Lede from "../../../Lede.svelte";
+  import Lede from "$lib/components/Lede.svelte";
 
-  import Divider from "../../../Divider.svelte";
+  import Divider from "$lib/components/Divider.svelte";
 
   import Header from "$lib/components/Header.svelte";
 
-  import VerticalDivider from "../../../VerticalDivider.svelte";
+  import VerticalDivider from "$lib/components/VerticalDivider.svelte";
 </script>
 
 <Header />
@@ -17,23 +17,17 @@
       src="/assets/tema_8/Teksteditor_mockup.webp"
       alt=""
     />
-    <h1>Tekst applikasjon</h1>
+    <h1>Tekst app</h1>
     <div>
       <Lede
         ledeText="I denne oppgaven valgte jeg å ta for meg oppgaven å lage en rich text
           editor tilsvarende til TinyMCE og CKEditor som skulle være brukbare med
           kun tastatur."
       />
-      <p>
-        Dette prosjektet var gjennomført indeviduelt over en periode av 6 uker.
-        Dette var en oppgave jeg selv valgte å utfordre meg med og for å lære
-        meg mer om javascript
-      </p>
     </div>
 
     <iframe
-      width="100%"
-      height="600"
+      title="Figma prosjekt fil"
       src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FC5TjViSAMhCqRf18Zun8J0%2FTema-8%3Ftype%3Ddesign%26node-id%3D89%253A2%26mode%3Ddesign%26t%3DMHK3hrncRx2Z5mgd-1"
       allowfullscreen
     ></iframe>
@@ -476,6 +470,9 @@
   iframe {
     border: 1px solid var(--secondary-background);
     border-radius: var(--border-radius);
+    width: 100%;
+    height: 600px;
+    max-height: 80vh;
   }
 
   article > * {
