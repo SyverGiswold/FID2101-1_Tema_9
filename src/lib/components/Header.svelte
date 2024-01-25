@@ -16,12 +16,6 @@
 </header>
 
 <style>
-  @import "./reset.css";
-  @import "./variable.css";
-  @import "./style.css";
-  @import "./animation.css";
-
-
   header {
     position: sticky;
     top: 0;

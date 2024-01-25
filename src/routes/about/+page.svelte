@@ -1,18 +1,5 @@
 <script>
-  import Header from "../../Header.svelte";
-
-  import { onNavigate } from "$app/navigation";
-
-  onNavigate((navigation) => {
-    if (!document.startViewTransition) return;
-
-    return new Promise((resolve) => {
-      document.startViewTransition(async () => {
-        resolve();
-        await navigation.complete;
-      });
-    });
-  });
+  import Header from "$lib/components/Header.svelte";
 </script>
 
 <Header activeLink="Om meg" />
