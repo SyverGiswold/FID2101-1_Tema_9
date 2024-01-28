@@ -68,7 +68,7 @@
     />
     <Card
       link="./projects/tema_5"
-      src="https://raw.githubusercontent.com/SyverGiswold/FID2101-1_Tema_9/main/static/assets/tema_5/Free_Laptop_Mockup.webp"
+      src="/assets/tema_5/Free_Laptop_Mockup.webp"
       image_transition="image-transition-tema_5"
       title="Handleliste app"
       lede="Denne oppgaven gikk ut på å lære Javascript og å lage en handle liste applikasjon i javascript."

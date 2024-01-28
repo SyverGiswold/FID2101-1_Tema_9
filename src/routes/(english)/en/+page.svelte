@@ -76,7 +76,7 @@
     />
     <Card
       link="./en/projects/tema_5"
-      src="https://raw.githubusercontent.com/SyverGiswold/FID2101-1_Tema_9/main/static/assets/tema_5/Free_Laptop_Mockup.webp"
+      src="/assets/tema_5/Free_Laptop_Mockup.webp"
       image_transition="image-transition-tema_5"
       title="Shopping list app"
       lede="This task was about learning Javascript and creating a shopping list application in Javascript."
