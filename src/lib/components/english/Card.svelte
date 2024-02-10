@@ -52,6 +52,25 @@
     border: 4px solid var(--secondary-background);
   }
 
+	@media only screen and (min-width: 1000px) {
+	.card{
+		display: flex;
+		flex-direction: row;
+    gap: 24px;
+		border: 2px solid var(--secondary-background);
+		padding: 24px;
+		border-radius: var(--border-radius);
+		text-decoration: none;
+    color: var(--primary-text);
+    flex: 0 0 calc(50% - 24px);
+    transition: border 0.2s linear;
+	}
+
+	img {
+		max-width: 50%;
+	}
+  }
+
   @media only screen and (max-width: 750px) {
     .card {
       flex: 1;

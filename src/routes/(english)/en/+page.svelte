@@ -97,6 +97,7 @@
 
   .gallery-section {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
@@ -110,7 +111,7 @@
   @media only screen and (max-width: 1300px) {
     main {
       flex-direction: column;
-    }
+    } 
 
     article {
       width: 100%;
@@ -121,7 +122,7 @@
       max-width: 100%;
       margin-top: 2rem;
     }
-  }
+}
 
   @media only screen and (max-width: 900px) {
     main {

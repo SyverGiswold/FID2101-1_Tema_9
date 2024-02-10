@@ -89,6 +89,7 @@
 
   .gallery-section {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
