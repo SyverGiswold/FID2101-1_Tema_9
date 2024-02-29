@@ -1,6 +1,6 @@
 <script>
   import Header from "$lib/components/english/Header.svelte";
-  import Card from "$lib/components/english/Card.svelte";
+  import Card from "$lib/components/english/card/Card.svelte";
 </script>
 
 <svelte:head>

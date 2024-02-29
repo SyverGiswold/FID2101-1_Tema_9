@@ -1,4 +1,7 @@
 <script>
+	import tilt from '$lib/components/card/tilt.js';
+	let reverse = true;
+
   export let link = "https://github.com/SyverGiswold"
 
 	export let src = "https://placehold.co/600x400"
@@ -8,24 +11,9 @@
 	export let lede = "Write a lede that describes the project in a short and concise version"
 	export let executed = "Write if it was done alone or not"
 	export let period = "How long did you have on the task"
-
-	let tiltX = 0;
-  let tiltY = 0;
-
-	function handleMouseMove(event) {
-			const { width, height, left, top } = event.currentTarget.getBoundingClientRect();
-			tiltY = (event.clientY - top) / height - 0.5;
-			tiltX = (event.clientX - left) / width - 0.5;
-  };
-
-  function resetTilt() {
-			tiltX = 0;
-    	tiltY = 0;
-  };
-
 </script>
 
-<a class="card" href={link} on:mousemove={handleMouseMove} on:mouseleave={resetTilt} style:transform={`perspective(500px) rotateX(${tiltY * 15}deg) rotateY(${tiltX * -15}deg)`}>
+<a class="card" href={link} use:tilt={{ scale: 1.05, reverse }}>
 	<img alt="" src={src} class={image_transition}>
 	<div class="card_text">
 		<h2>{title}</h2>
