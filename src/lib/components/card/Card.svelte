@@ -13,7 +13,7 @@
 	export let period = "How long did you have on the task"
 </script>
 
-<a class="card" href={link} use:tilt={{ scale: 1.05, reverse }}>
+<a class="card" href={link} use:tilt={{ scale: 1, reverse }}>
 	<img alt="" src={src} class={image_transition}>
 	<div class="card_text">
 		<h2>{title}</h2>

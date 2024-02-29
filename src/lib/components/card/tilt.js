@@ -18,7 +18,7 @@ export default function tilt(node, settingsObj) {
 		const tiltX = max - percX * twiceMax;
     const tiltY = percY * twiceMax - max;
 		
-		node.style.transform = `perspective(${1000}px) `+
+		node.style.transform = `perspective(${5000}px) `+
       `rotateX(${reverse * tiltY}deg) ` +
       `rotateY(${reverse * tiltX}deg) ` +
       `scale3d(${Array(3).fill(scale).join(', ')})`;
