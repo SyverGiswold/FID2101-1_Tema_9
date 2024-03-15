@@ -6,10 +6,10 @@
   <nav>
     <a class="heading" href="/en"><span>Syver Giswold</span></a>
     <a class="link {activeLink === 'home' ? 'active' : ''}" href="/en">Home</a>
-    <a class="link {activeLink === 'about' ? 'active' : ''}" href="../en/about"
+    <a class="link {activeLink === 'about' ? 'active' : ''}" href="/en/about"
       >About</a
     >
-    <a class="link {activeLink === 'contact' ? 'active' : ''}" href="../en/contact"
+    <a class="link {activeLink === 'contact' ? 'active' : ''}" href="/en/contact"
       >Contact</a
     >
   </nav>
