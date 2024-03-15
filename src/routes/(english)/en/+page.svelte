@@ -65,24 +65,21 @@
   </article>
 
   <section class="gallery-section">
-    <Card
-      link="./en/projects/tema_8"
-      src="/assets/tema_8/Teksteditor_mockup.webp"
-      image_transition="image-transition-tema_8"
-      title="Text app"
-      lede="In this task, I chose to create a rich text editor similar to TinyMCE and CKEditor that would be usable with only a keyboard."
-      executed="Alone"
-      period="6 weeks"
-    />
-    <Card
-      link="./en/projects/tema_5"
-      src="/assets/tema_5/Free_Laptop_Mockup.webp"
-      image_transition="image-transition-tema_5"
-      title="Shopping list app"
-      lede="This task was about learning Javascript and creating a shopping list application in Javascript."
-      executed="Alone"
-      period="6 weeks"
-    />
+
+    <Card link="./en/projects/tema_8">
+      <img class="image-transition-tema_8" slot="image" src="/assets/tema_8/Teksteditor_mockup.webp" alt="" />
+      <h2 slot="title">Text app</h2>
+      <p slot="lede">In this task, I chose to create a rich text editor similar to TinyMCE and CKEditor that would be usable with only a keyboard.</p>
+      <span slot="executed"><span class="bold">executed: </span>Alone</span>
+      <span slot="period"><span class="bold">duration: </span>6 weeks</span>
+    </Card>
+    <Card link="./en/projects/tema_5">
+      <img class="image-transition-tema_5" slot="image" src="/assets/tema_5/Free_Laptop_Mockup.webp" alt="" />
+      <h2 slot="title">Shopping list app</h2>
+      <p slot="lede">This task was about learning Javascript and creating a shopping list application in Javascript.</p>
+      <span slot="executed"><span class="bold">executed: </span>Alone</span>
+      <span slot="period"><span class="bold">duration: </span>6 weeks</span>
+    </Card>
   </section>
 </main>
 

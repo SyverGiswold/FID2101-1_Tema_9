@@ -57,24 +57,20 @@
   </article>
 
   <section class="gallery-section">
-    <Card
-      link="./projects/tema_8"
-      src="/assets/tema_8/Teksteditor_mockup.webp"
-      image_transition="image-transition-tema_8"
-      title="Tekst app"
-      lede="I denne oppgaven valgte jeg å lage en rich text editor tilsvarende til TinyMCE og CKEditor som skulle være brukbare med kun tastatur."
-      executed="Individuelt"
-      period="6 uker"
-    />
-    <Card
-      link="./projects/tema_5"
-      src="/assets/tema_5/Free_Laptop_Mockup.webp"
-      image_transition="image-transition-tema_5"
-      title="Handleliste app"
-      lede="Denne oppgaven gikk ut på å lære Javascript og å lage en handle liste applikasjon i javascript."
-      executed="Individuelt"
-      period="6 uker"
-    />
+    <Card link="./projects/tema_8">
+      <img class="image-transition-tema_8" slot="image" src="/assets/tema_8/Teksteditor_mockup.webp" alt="" />
+      <h2 slot="title">Tekst app</h2>
+      <p slot="lede">I denne oppgaven valgte jeg å lage en rich text editor tilsvarende til TinyMCE og CKEditor som skulle være brukbare med kun tastatur.</p>
+      <span slot="executed"><span class="bold">Utført: </span>Individuelt</span>
+      <span slot="period"><span class="bold">Lengde: </span>6 uker</span>
+    </Card>
+    <Card link="./projects/tema_5">
+      <img class="image-transition-tema_5" slot="image" src="/assets/tema_5/Free_Laptop_Mockup.webp" alt="" />
+      <h2 slot="title">Handleliste app</h2>
+      <p slot="lede">Denne oppgaven gikk ut på å lære Javascript og å lage en handle liste applikasjon i javascript.</p>
+      <span slot="executed"><span class="bold">Utført: </span>Individuelt</span>
+      <span slot="period"><span class="bold">Lengde: </span>6 uker</span>
+    </Card>
   </section>
 </main>
 
