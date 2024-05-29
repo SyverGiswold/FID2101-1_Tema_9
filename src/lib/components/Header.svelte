@@ -3,7 +3,6 @@
   let sections = ["home", "about", "contact"];
   let activeLink = "";
   let isEnglish = false;
-  let currentPath = "";
 
   // Norwegian translations
   let translations = {
@@ -14,7 +13,6 @@
 
   onMount(() => {
     isEnglish = window.location.pathname.includes("/en");
-    currentPath = window.location.pathname; // Store current path
 
     const observer = new IntersectionObserver(
       (entries) => {
