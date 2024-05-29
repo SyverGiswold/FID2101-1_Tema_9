@@ -1,17 +1,53 @@
 <script>
-  export let activeLink = "";
+  import { onMount } from 'svelte';
+  let sections = ['home', 'about', 'contact'];
+  let activeLink = '';
+  let isEnglish = false;
+
+  // Norwegian translations
+  let translations = {
+    'home': 'hjem',
+    'about': 'om meg',
+    'contact': 'kontakt'
+  };
+
+  onMount(() => {
+    isEnglish = window.location.pathname.includes('/en');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          activeLink = entry.target.id;
+        }
+      });
+    }, { threshold: 0.2, rootMargin: "-50px" });
+
+    sections.forEach(section => {
+      const element = document.querySelector(`#${section}`);
+      if (element) {
+        observer.observe(element);
+      }
+    });
+
+    return () => {
+      sections.forEach(section => {
+        const element = document.querySelector(`#${section}`);
+        if (element) {
+          observer.unobserve(element);
+        }
+      });
+    };
+  });
 </script>
 
 <header>
   <nav>
     <a class="heading" href="/"><span>Syver Giswold</span></a>
-    <a class="link {activeLink === 'home' ? 'active' : ''}" href="/">Hjem</a>
-    <a class="link {activeLink === 'about' ? 'active' : ''}" href="/about"
-      >Om meg</a
-    >
-    <a class="link {activeLink === 'contact' ? 'active' : ''}" href="/contact"
-      >Kontakt</a
-    >
+    {#each sections as section}
+      <a class="link {activeLink === section ? 'active' : ''}" href={`/#${section}`}>
+        {isEnglish ? section : translations[section]}
+      </a>
+    {/each}
   </nav>
 </header>
 
@@ -48,7 +84,7 @@
     justify-content: space-between;
     gap: 24px;
     width: 80%;
-    max-width: 1500px;
+    max-width: 940px;
   }
 
   .heading {
@@ -58,6 +94,7 @@
   a {
     text-decoration: none;
     color: var(--primary-text);
+    text-transform: capitalize;
   }
 
   .link {
@@ -94,7 +131,6 @@
   @media only screen and (max-width: 900px) {
     nav {
       margin: 0 4rem;
-      width: 100%;
     }
 
     header::after {
@@ -106,15 +142,12 @@
     .heading {
       display: none;
     }
-
-    nav {
-      margin: 0 2rem;
-    }
   }
 
   @media only screen and (max-width: 650px) {
     header {
       padding: 0;
+      max-width: 100%;
     }
 
     .link {
@@ -123,13 +156,18 @@
 
     nav {
       gap: 0;
-      margin: 0 1rem;
+      max-width: 100%;
     }
   }
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 425px) {
     header {
       max-width: 100%;
+    }
+
+    nav {
+      margin: 0 1rem;
+      width: 100%;
     }
   }
 </style>

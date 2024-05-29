@@ -2,13 +2,17 @@
   font-size: 1rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--primary-background);
 }
 
 main {
   margin: 0 auto;
-  max-width: 1500px;
+  max-width: 940px;
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -44,8 +48,19 @@ p {
   font-weight: 700;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
 img {
-  height: 100%;
+  height: auto;
   max-width: 100%;
   border-radius: var(--border-radius);
   display: block;
@@ -54,7 +69,6 @@ img {
 
 @media only screen and (max-width: 900px) {
   main {
-    width: auto;
     padding: 0 4rem;
     margin-bottom: 2rem;
   }
@@ -67,13 +81,20 @@ img {
 @media only screen and (max-width: 650px) {
   main {
     max-width: 100%;
-    padding: 0 2rem;
+    padding: 0 3rem;
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 524px) {
+  main {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
   main {
     padding: 0 0rem;
-    margin: 0 1rem;
+    margin: 0 auto;
   }
 }
