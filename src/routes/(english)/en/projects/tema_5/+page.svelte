@@ -3,7 +3,7 @@
 
   import Divider from "$lib/components/Divider.svelte";
 
-  import Header from "$lib/components/english/Header.svelte";
+  import Header from "$lib/components/Header.svelte";
 
   import VerticalDivider from "$lib/components/VerticalDivider.svelte";
 </script>
