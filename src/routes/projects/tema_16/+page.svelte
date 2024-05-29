@@ -157,8 +157,8 @@
         forstå hvis du bare leser om dem. I de tilfellene lagde jeg en codepen
         som viser disse nye seksjonene på en responsiv måte. Disse eksemplene
         kan bli funnet her <a
-          href="https://codepen.io/search/pens?q=ygg+%26+lyng"
-          target="_blank">https://codepen.io/search/pens?q=ygg+%26+lyng</a
+          href="https://codepen.io/collection/gYyJRq"
+          target="_blank">https://codepen.io/collection/gYyJRq</a
         >
       </p>
     </div>

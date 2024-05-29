@@ -155,8 +155,8 @@
 				difficult to understand if you only read about them. In these cases, I
 				created a codepen that shows these new sections in a responsive way.
 				These examples can be found here <a
-					href="https://codepen.io/search/pens?q=ygg+%26+lyng"
-					target="_blank">https://codepen.io/search/pens?q=ygg+%26+lyng</a
+					href="https://codepen.io/collection/gYyJRq"
+					target="_blank">https://codepen.io/collection/gYyJRq</a
 				>
 			</p>
 		</div>
