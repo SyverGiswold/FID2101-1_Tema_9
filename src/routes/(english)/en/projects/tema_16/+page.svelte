@@ -6,6 +6,10 @@
 	import Header from "$lib/components/Header.svelte";
 </script>
 
+<svelte:head>
+	<title>Syver's portfolio | Universal Design Report</title>
+</svelte:head>
+
 <Header />
 
 <main>

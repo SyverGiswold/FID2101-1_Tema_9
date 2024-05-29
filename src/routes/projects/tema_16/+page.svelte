@@ -8,6 +8,10 @@
   import VerticalDivider from "$lib/components/VerticalDivider.svelte";
 </script>
 
+<svelte:head>
+  <title>Syver's portefølje | Universell utforming rapport</title>
+</svelte:head>
+
 <Header />
 
 <main>

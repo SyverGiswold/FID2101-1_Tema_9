@@ -6,8 +6,4 @@
   });
 </script>
 
-<svelte:head>
-  <title>Syver's portfolio</title>
-</svelte:head>
-
 <slot />
