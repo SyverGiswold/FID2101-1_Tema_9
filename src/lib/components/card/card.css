@@ -30,6 +30,10 @@
   flex-direction: column;
 }
 
+.card p {
+  margin-bottom: 0 !important;
+}
+
 .card .card_text > span {
   margin-top: 2rem;
 }
