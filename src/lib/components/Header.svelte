@@ -1,28 +1,33 @@
 <script>
-  import { onMount } from 'svelte';
-  let sections = ['home', 'about', 'contact'];
-  let activeLink = '';
+  import { onMount } from "svelte";
+  let sections = ["home", "about", "contact"];
+  let activeLink = "";
   let isEnglish = false;
+  let currentPath = "";
 
   // Norwegian translations
   let translations = {
-    'home': 'hjem',
-    'about': 'om meg',
-    'contact': 'kontakt'
+    home: "hjem",
+    about: "om meg",
+    contact: "kontakt",
   };
 
   onMount(() => {
-    isEnglish = window.location.pathname.includes('/en');
+    isEnglish = window.location.pathname.includes("/en");
+    currentPath = window.location.pathname; // Store current path
 
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          activeLink = entry.target.id;
-        }
-      });
-    }, { threshold: 0.2, rootMargin: "-50px" });
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            activeLink = entry.target.id;
+          }
+        });
+      },
+      { threshold: 0.2, rootMargin: "-50px" },
+    );
 
-    sections.forEach(section => {
+    sections.forEach((section) => {
       const element = document.querySelector(`#${section}`);
       if (element) {
         observer.observe(element);
@@ -30,7 +35,7 @@
     });
 
     return () => {
-      sections.forEach(section => {
+      sections.forEach((section) => {
         const element = document.querySelector(`#${section}`);
         if (element) {
           observer.unobserve(element);
@@ -42,9 +47,14 @@
 
 <header>
   <nav>
-    <a class="heading" href="/"><span>Syver Giswold</span></a>
+    <a class="heading" href={isEnglish ? "/en" : "/"}
+      ><span>Syver Giswold</span></a
+    >
     {#each sections as section}
-      <a class="link {activeLink === section ? 'active' : ''}" href={`/#${section}`}>
+      <a
+        class="link {activeLink === section ? 'active' : ''}"
+        href={isEnglish ? `/en#${section}` : `/#${section}`}
+      >
         {isEnglish ? section : translations[section]}
       </a>
     {/each}

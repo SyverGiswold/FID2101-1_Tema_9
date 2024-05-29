@@ -85,7 +85,7 @@
       <img src="/assets/tema_8/Skjermbilde 2023-06-06 000745.webp" alt="" />
     </div>
 
-    <h3>Programvaretesting</h3>
+    <h3>Programvare<wbr>testing</h3>
 
     <div>
       <p>
@@ -336,10 +336,10 @@
           øker hans generelle livskvalitet.
           <span class="line-break"
             ><span class="bold"
-              >Hvorfor han kan ha bruk for en rik tekstredigeringsprogramvare:</span
-            > Markus har erfaring med tekstredigering gjennom sin programmeringsbakgrunn.
+              >Hvorfor han kan ha bruk for en rik tekstredigerings<wbr>programvare:</span
+            > Markus har erfaring med tekstredigering gjennom sin programmerings<wbr>bakgrunn.
             Han foretrekker enkle og brukervennlige grensesnitt. Han har ikke tidligere
-            brukt tekstredigeringsprogramvare som TinyMCE eller CKEditor, men han
+            brukt tekstredigerings<wbr>programvare som TinyMCE eller CKEditor, men han
             er åpen for å prøve nye verktøy for å forbedre produktiviteten og effektiviteten
             i arbeidet sitt.</span
           >
@@ -364,10 +364,10 @@
           avslapning og underholdning.
           <span class="line-break">
             <span class="bold"
-              >Hvorfor han kan ha bruk for en rik tekstredigeringsprogramvare:</span
+              >Hvorfor han kan ha bruk for en rik tekstredigerings<wbr>programvare:</span
             > Per har omfattende erfaring med tekstbehandlere gjennom sitt arbeid
             som frontend utvikler/konsulent. Han har brukt forskjellige tekstredigeringsverktøy
-            i tidligere jobber, og han ser verdien av å ha en rik tekstredigeringsprogramvare
+            i tidligere jobber, og han ser verdien av å ha en rik tekstredigerings<wbr>programvare
             som kan håndtere fleksibel tekst og funksjoner som bildeinnsetting og
             tabeller. Per lager applikasjoner hvor tekstinnholdet må være mer dynamisk
             og tilpasningsdyktig, og han ønsker å ha et verktøy som kan håndtere
@@ -531,7 +531,6 @@
   a {
     color: var(--primary-color);
     font-weight: 700;
-    line-break: anywhere;
   }
 
   .persona > div {

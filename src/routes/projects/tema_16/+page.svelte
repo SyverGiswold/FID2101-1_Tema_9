@@ -19,9 +19,9 @@
     />
     <h1>Universell utforming rapport</h1>
 
-      <Lede
-        ledeText="Rapporten fokuserer på universell utforming og brukervennlighet på Ygg & Lyng sin nettside, og tar for seg både automatisk og manuell testing."
-      />
+    <Lede
+      ledeText="Rapporten fokuserer på universell utforming og brukervennlighet på Ygg & Lyng sin nettside, og tar for seg både automatisk og manuell testing."
+    />
 
     <p>
       Lenke til rapport: <a
@@ -194,20 +194,19 @@
 
     <div>
       <p>
-        Avslutningsvis inkluderte jeg en liste over alle ressurser og verktøy som
-        ble benyttet under utarbeidelsen av rapporten. Dette omfattet lenker til
-        automatiske og manuelle testverktøy, relevante WCAG-kriterier, lovverk
-        knyttet til personvern, generelle ressurser for universell utforming og
-        kodeeksempler.
+        Avslutningsvis inkluderte jeg en liste over alle ressurser og verktøy
+        som ble benyttet under utarbeidelsen av rapporten. Dette omfattet lenker
+        til automatiske og manuelle testverktøy, relevante WCAG-kriterier,
+        lovverk knyttet til personvern, generelle ressurser for universell
+        utforming og kodeeksempler.
       </p>
 
       <p>
         Ved å følge denne strukturerte og kronologiske prosessen, sikret jeg en
-        grundig og informativ tilsynsrapport som gir Ygg & Lyng et solid grunnlag
-        for å forbedre nettsidens tilgjengelighet og brukeropplevelse.
+        grundig og informativ tilsynsrapport som gir Ygg & Lyng et solid
+        grunnlag for å forbedre nettsidens tilgjengelighet og brukeropplevelse.
       </p>
     </div>
-
   </article>
 </main>
 
@@ -276,7 +275,6 @@
   a {
     color: var(--primary-color);
     font-weight: 700;
-    line-break: anywhere;
   }
 
   .persona > div {

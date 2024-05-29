@@ -219,7 +219,6 @@
   a {
     color: var(--primary-color);
     font-weight: 700;
-    line-break: anywhere;
   }
 
   @media only screen and (max-width: 750px) {

@@ -69,7 +69,6 @@ img {
 
 @media only screen and (max-width: 900px) {
   main {
-    padding: 0 4rem;
     margin-bottom: 2rem;
   }
 
@@ -78,23 +77,10 @@ img {
   }
 }
 
-@media only screen and (max-width: 650px) {
-  main {
-    max-width: 100%;
-    padding: 0 3rem;
-  }
-}
-
-@media only screen and (max-width: 524px) {
-  main {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-}
-
 @media only screen and (max-width: 425px) {
   main {
-    padding: 0 0rem;
+    width: 100%;
+    padding: 0 1rem;
     margin: 0 auto;
   }
 }

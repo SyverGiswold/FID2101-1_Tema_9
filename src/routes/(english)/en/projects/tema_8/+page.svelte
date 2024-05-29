@@ -525,7 +525,6 @@
   a {
     color: var(--primary-color);
     font-weight: 700;
-    line-break: anywhere;
   }
 
   .persona > div {
