@@ -1,7 +1,7 @@
 <script>
   let node;
   let settings = { scale: 1, max: 15, reverse: true };
-  const TRANSITION_MS = 200;
+  const TRANSITION_MS = 300;
   let reverse = settings.reverse ? -1 : 1;
   let transitionId;
 
