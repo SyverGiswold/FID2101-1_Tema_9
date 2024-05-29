@@ -101,7 +101,7 @@
         <img
           class="image-transition-tema_8"
           slot="image"
-          src="/assets/tema_8/Teksteditor_mockup.webp"
+          src="/assets/tema_8/MacBook_Dresser_Mockup_4.webp"
           alt=""
         />
         <h3 slot="title">Text app</h3>
@@ -131,7 +131,7 @@
         <img
           class="image-transition-tema_16"
           slot="image"
-          src="/assets/tema_5/Free_Laptop_Mockup.webp"
+          src="/assets/tema_16/Free_Tabbed_Brochure_1.webp"
           alt=""
         />
         <h3 slot="title">Universell utforming rapport</h3>

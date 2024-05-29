@@ -12,7 +12,7 @@
 	<article>
 		<img
 			class="image-transition-tema_16"
-			src="/assets/tema_5/Free_Laptop_Mockup.webp"
+			src="/assets/tema_16/Free_Tabbed_Brochure_1.webp"
 			alt=""
 		/>
 		<h1>Universal Design Report</h1>

@@ -18,7 +18,7 @@
   <article>
     <img
       class="image-transition-tema_8"
-      src="/assets/tema_8/Teksteditor_mockup.webp"
+      src="/assets/tema_8/MacBook_Dresser_Mockup_4.webp"
       alt=""
     />
     <h1>Tekst app</h1>
