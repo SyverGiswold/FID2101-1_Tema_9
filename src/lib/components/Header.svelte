@@ -22,7 +22,7 @@
           }
         });
       },
-      { threshold: 0.2, rootMargin: "-50px" },
+      { threshold: 0.1, rootMargin: "-100px" },
     );
 
     sections.forEach((section) => {

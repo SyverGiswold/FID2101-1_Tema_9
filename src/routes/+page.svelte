@@ -260,7 +260,8 @@
   }
 
   section {
-    padding: 120px 0;
+    padding: 80px 0;
+    scroll-margin-top: 40px;
   }
 
   article {
