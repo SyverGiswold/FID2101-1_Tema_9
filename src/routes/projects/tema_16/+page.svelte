@@ -9,7 +9,9 @@
 </script>
 
 <svelte:head>
-  <title>Syver's portefølje | Universell utforming rapport</title>
+  <title>Syver's portefølje - Universell utforming rapport</title>
+
+  <link rel="alternate" hreflang="en" href="https://syver-g.netlify.app/en/projects/tema_16" />
 </svelte:head>
 
 <Header />

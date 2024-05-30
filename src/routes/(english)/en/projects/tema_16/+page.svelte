@@ -7,7 +7,9 @@
 </script>
 
 <svelte:head>
-	<title>Syver's portfolio | Universal Design Report</title>
+	<title>Syver's portfolio - Universal Design Report</title>
+
+	<link rel="alternate" hreflang="no" href="https://syver-g.netlify.app/projects/tema_16" />
 </svelte:head>
 
 <Header />

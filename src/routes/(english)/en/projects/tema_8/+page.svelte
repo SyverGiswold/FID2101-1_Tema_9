@@ -9,7 +9,9 @@
 </script>
 
 <svelte:head>
-	<title>Syver's portfolio | Text app</title>
+	<title>Syver's portfolio - Text app</title>
+
+  <link rel="alternate" hreflang="no" href="https://syver-g.netlify.app/projects/tema_8" />
 </svelte:head>
 
 <Header />

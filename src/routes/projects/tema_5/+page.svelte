@@ -10,6 +10,8 @@
 
 <svelte:head>
   <title>Syver's portefølje | Handleliste app</title>
+
+  <link rel="alternate" hreflang="en" href="https://syver-g.netlify.app/en/projects/tema_5" />
 </svelte:head>
 
 <Header />
