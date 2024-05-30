@@ -1,5 +1,7 @@
 https://syver-g.netlify.app/
-https://syver-g.netlify.app/about
-https://syver-g.netlify.app/contact
+https://syver-g.netlify.app/en
 https://syver-g.netlify.app/projects/tema_8
+https://syver-g.netlify.app/en/projects/tema_8
 https://syver-g.netlify.app/projects/tema_5
+https://syver-g.netlify.app/en/projects/tema_5
+https://syver-g.netlify.app/projects/tema_16
