@@ -11,6 +11,8 @@
 <svelte:head>
 	<title>Syver's portfolio - Text app</title>
 
+  <meta name="description" content="Developing a keyboard-friendly rich text editor inspired by TinyMCE & CKEditor. This project covers research, prototyping, user testing, and code.">
+
   <link rel="alternate" hreflang="no" href="https://syver-g.netlify.app/projects/tema_8" />
 </svelte:head>
 
