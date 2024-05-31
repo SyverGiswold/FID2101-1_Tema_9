@@ -23,7 +23,7 @@
     <img
       class="image-transition-tema_8"
       src="/assets/tema_8/MacBook_Dresser_Mockup_4.webp"
-      alt=""
+      alt="En laptop viser en artikkel med tittelen 'Reisen til Mars' og et bilde av en Mars-rover"
     />
     <h1>Tekst app</h1>
     <div>

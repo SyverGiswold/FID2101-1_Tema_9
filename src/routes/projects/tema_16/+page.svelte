@@ -23,7 +23,7 @@
     <img
       class="image-transition-tema_16"
       src="/assets/tema_16/Free_Tabbed_Brochure_1.webp"
-      alt=""
+      alt="Forside av tilsynsrapport for Ygg & Lyng med tittelen 'Tilsynsrapport' og faner for navigasjon"
     />
     <h1>Universell utforming rapport</h1>
 

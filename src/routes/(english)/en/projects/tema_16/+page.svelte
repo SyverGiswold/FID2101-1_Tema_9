@@ -21,7 +21,7 @@
 		<img
 			class="image-transition-tema_16"
 			src="/assets/tema_16/Free_Tabbed_Brochure_1.webp"
-			alt=""
+			alt="Cover of an accessibility report for Ygg & Lyng with the title 'Accessibility Report' and navigation tabs"
 		/>
 		<h1>Universal Design Report</h1>
 

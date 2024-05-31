@@ -107,7 +107,7 @@
           class="image-transition-tema_8"
           slot="image"
           src="/assets/tema_8/MacBook_Dresser_Mockup_4.webp"
-          alt=""
+          alt="En laptop viser en artikkel med tittelen 'Reisen til Mars' og et bilde av en Mars-rover"
         />
         <h3 slot="title">Tekst app</h3>
         <p slot="lede">
@@ -124,7 +124,7 @@
           class="image-transition-tema_5"
           slot="image"
           src="/assets/tema_5/Free_Laptop_Mockup.webp"
-          alt=""
+          alt="Et nettbrett viser en handleliste-app med kategorier for 'Meny', 'Rema 1000' og 'Extra'"
         />
         <h3 slot="title">Handleliste app</h3>
         <p slot="lede">
@@ -141,7 +141,7 @@
           class="image-transition-tema_16"
           slot="image"
           src="/assets/tema_16/Free_Tabbed_Brochure_1.webp"
-          alt=""
+          alt="Forside av tilsynsrapport for Ygg & Lyng med tittelen 'Tilsynsrapport' og faner for navigasjon"
         />
         <h3 slot="title">Universell utforming rapport</h3>
         <p slot="lede">
@@ -174,7 +174,7 @@
           prosjektene jeg har jobbet med. Jeg håper du finner dem interessante.
         </p>
       </div>
-      <img src="/assets/Syver_Giswold_04_12x12.webp" alt="" />
+      <img src="/assets/Syver_Giswold_04_12x12.webp" alt="Portrettbilde av Syver Giswold, en ung mann med briller og grå genser" />
     </article>
   </section>
   <section id="contact">

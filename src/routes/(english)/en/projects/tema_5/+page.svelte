@@ -23,7 +23,7 @@
     <img
       class="image-transition-tema_5"
       src="/assets/tema_5/Free_Laptop_Mockup.webp"
-      alt=""
+      alt="A tablet displays a shopping list app with categories for 'Meny', 'Rema 1000' and 'Extra'"
     />
 
     <h1>Shopping list app</h1>

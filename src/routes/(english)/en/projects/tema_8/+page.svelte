@@ -20,10 +20,11 @@
 
 <main>
   <article>
+    <!-- svelte-ignore a11y-img-redundant-alt -->
     <img
       class="image-transition-tema_8"
       src="/assets/tema_8/MacBook_Dresser_Mockup_4.webp"
-      alt=""
+      alt="A laptop displays an article titled 'Journey to Mars' with a picture of a Mars rover"
     />
     <h1>Text app</h1>
     <div>

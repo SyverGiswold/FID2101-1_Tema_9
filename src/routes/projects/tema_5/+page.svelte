@@ -23,7 +23,7 @@
     <img
       class="image-transition-tema_5"
       src="/assets/tema_5/Free_Laptop_Mockup.webp"
-      alt=""
+      alt="Et nettbrett viser en handleliste-app med kategorier for 'Meny', 'Rema 1000' og 'Extra'"
     />
 
     <h1>Handleliste app</h1>

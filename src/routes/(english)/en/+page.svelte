@@ -102,11 +102,12 @@
 
     <div class="cardSection">
       <Card link="./en/projects/tema_8">
+        <!-- svelte-ignore a11y-img-redundant-alt -->
         <img
           class="image-transition-tema_8"
           slot="image"
           src="/assets/tema_8/MacBook_Dresser_Mockup_4.webp"
-          alt=""
+          alt="A laptop displays an article titled 'Journey to Mars' with a picture of a Mars rover"
         />
         <h3 slot="title">Text app</h3>
         <p slot="lede">
@@ -121,7 +122,7 @@
           class="image-transition-tema_5"
           slot="image"
           src="/assets/tema_5/Free_Laptop_Mockup.webp"
-          alt=""
+          alt="A tablet displays a shopping list app with categories for 'Meny', 'Rema 1000' and 'Extra'"
         />
         <h3 slot="title">Shopping list app</h3>
         <p slot="lede">
@@ -136,7 +137,7 @@
           class="image-transition-tema_16"
           slot="image"
           src="/assets/tema_16/Free_Tabbed_Brochure_1.webp"
-          alt=""
+          alt="Cover of an accessibility report for Ygg & Lyng with the title 'Accessibility Report' and navigation tabs"
         />
         <h3 slot="title">Universell utforming rapport</h3>
         <p slot="lede">
@@ -166,7 +167,7 @@
           projects I have worked on. I hope you find them interesting.
         </p>
       </div>
-      <img src="/assets/Syver_Giswold_04_12x12.webp" alt="" />
+      <img src="/assets/Syver_Giswold_04_12x12.webp" alt="Portrait of Syver Giswold, a young man with glasses and a grey sweater" />
     </article>
   </section>
   <section id="contact">
