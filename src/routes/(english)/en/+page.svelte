@@ -39,41 +39,41 @@
   <meta
     name="description"
     content="Explore Syver Giswold's portfolio - a talented UX/UI designer & frontend developer. Discover innovative design solutions. Contact me for your next project!"
-  >
+  />
   <meta
     name="keywords"
     content="design ui, portefølje design, portefølje grafisk design, ux og ui design, ux og ui, ui og ux, ux, ui, Interaksjonsdesign, Brukergrensesnitt design, Brukeropplevelse design, Frontend utvikling, JavaScript, CSS, HTML, Responsive design, Webdesign, Webutvikling, Prototyping, Brukertesting, Designsystemer, Designprinsipper, Tilgjengelighet, Kreativ problemløsning, Syver, Giswold"
-  >
-  <meta name="robots" content="index, follow">
+  />
+  <meta name="robots" content="index, follow" />
 
   <link rel="alternate" hreflang="no" href="https://syver-g.netlify.app/" />
 
   <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="https://syver-g.netlify.app/en">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Syver's portfolio">
+  <meta property="og:url" content="https://syver-g.netlify.app/en" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Syver's portfolio" />
   <meta
     property="og:description"
     content="Explore the portfolio of Syver Giswold, a dedicated interaction designer with a focus on frontend development. Review projects that demonstrate skills in user interface design, user experience design, and more."
-  >
+  />
   <meta
     property="og:image"
     content="https://syver-g.netlify.app/assets/Syver_Giswold_link_preview.webp"
-  >
+  />
 
   <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:domain" content="syver-g.netlify.app/">
-  <meta property="twitter:url" content="https://syver-g.netlify.app/en">
-  <meta name="twitter:title" content="Syver's portfolio">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:domain" content="syver-g.netlify.app/" />
+  <meta property="twitter:url" content="https://syver-g.netlify.app/en" />
+  <meta name="twitter:title" content="Syver's portfolio" />
   <meta
     name="twitter:description"
     content="Explore the portfolio of Syver Giswold, a dedicated interaction designer with a focus on frontend development. Review projects that demonstrate skills in user interface design, user experience design, and more."
-  >
+  />
   <meta
     name="twitter:image"
     content="https://syver-g.netlify.app/assets/Syver_Giswold_link_preview.webp"
-  >
+  />
 
   <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 </svelte:head>

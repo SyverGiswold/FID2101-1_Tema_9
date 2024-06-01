@@ -38,7 +38,7 @@
 
   <meta
     name="description"
-    content="Se Syver Giswolds portefølje - en talentfull UX/UI designer & frontend-utvikler. Utforsk innovative designløsninger og ta kontakt for ditt neste prosjekt!"
+    content="Syver Giswold: UX/UI designer & frontend-utvikler. Se porteføljen min for brukergrensesnitt design, brukeropplevelse design, og mer. Besøk nettstedet mitt for å lære mer!"
   >
   <meta
     name="keywords"
