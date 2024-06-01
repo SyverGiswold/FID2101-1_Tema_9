@@ -42,7 +42,7 @@
   >
   <meta
     name="keywords"
-    content="UX design, UI design, frontend developer, JavaScript, CSS, HTML, responsive design, user experience, interaction design, Syver Giswold, portfolio, web design"
+    content="design ui, portefølje design, portefølje grafisk design, ux og ui design, ux og ui, ui og ux, ux, ui, Interaksjonsdesign, Brukergrensesnitt design, Brukeropplevelse design, Frontend utvikling, JavaScript, CSS, HTML, Responsive design, Webdesign, Webutvikling, Prototyping, Brukertesting, Designsystemer, Designprinsipper, Tilgjengelighet, Kreativ problemløsning, Syver, Giswold"
   >
   <meta name="robots" content="index, follow">
 
