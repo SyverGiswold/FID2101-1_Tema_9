@@ -34,7 +34,7 @@
 </script>
 
 <svelte:head>
-  <title>Syver Giswold - UX/UI Designer & Frontend-utvikler</title>
+  <title>Syver Giswold - Interaksjonsdesigner & Frontend-utvikler</title>
 
   <meta
     name="description"
