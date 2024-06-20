@@ -76,25 +76,49 @@
   >
 
   <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+  <!-- Schema.org Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Syver Giswold",
+      "jobTitle": "Interaksjonsdesigner & Frontend-utvikler",
+      "description": "Se Syver Giswolds portefølje - en talentfull UX/UI designer & frontend-utvikler. Utforsk innovative designløsninger og ta kontakt for ditt neste prosjekt!",
+      "url": "https://syver-g.netlify.app/",
+      "image": "https://syver-g.netlify.app/assets/Syver_Giswold_link_preview.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sande i Vestfold",
+        "addressCountry": "Norge"
+      },
+      "telephone": "+4797104751",
+      "email": "SyverGiswold@gmail.com",
+      "sameAs": [
+        "https://github.com/SyverGiswold",
+        "https://www.linkedin.com/in/syver-giswold/"
+      ]
+    }
+  </script>
 </svelte:head>
 
 <Header />
 
 <main>
   <h1 class="sr-only">Syvers portefølje</h1>
-  <section id="home">
+  <section id="home" itemscope itemtype="https://schema.org/CreativeWork">
     <div>
-      <h2>Prosjekter</h2>
-      <p class="bold">Velkommen til porteføljen min!</p>
+      <h2 itemprop="name">Prosjekter</h2>
+      <p class="bold" itemprop="description">Velkommen til porteføljen min!</p>
 
-      <p>
+      <p itemprop="text">
         Her kan du se noen av de spennende og kreative prosjektene jeg har
         jobbet med som interaksjonsdesigner. Jeg har kjennskap til verktøy som
         Figma, Webflow, HTML, CSS, JavaScript, Photoshop, Illustrator, Indesign,
         After Effects, og Premiere Pro.
       </p>
 
-      <p>
+      <p itemprop="text">
         Jeg håper du liker å utforske prosjektene mine og se hva jeg har lært og
         oppnådd. Hvis du har noen spørsmål eller tilbakemeldinger så er det bare
         å kontakte meg.
@@ -155,12 +179,12 @@
       </Card>
     </div>
   </section>
-  <section id="about">
+  <section id="about" itemscope itemtype="https://schema.org/Person">
     <article>
       <div>
-        <h2>Kort om meg</h2>
+        <h2 itemprop="name">Kort om meg</h2>
 
-        <p>
+        <p itemprop="description">
           Jeg er en interaksjonsdesign student som er lidenskapelig opptatt av å
           skape brukervennlige og estetiske løsninger for digitale produkter.
           Jeg har erfaring med å designe og utvikle interaktive prototyper,
@@ -168,44 +192,44 @@
           frontend utvikling og har lært meg HTML, CSS, og JavaScript.
         </p>
 
-        <p>
+        <p itemprop="description">
           Jeg liker å utforske nye teknologier og trender, og å lære av andre
           designere og utviklere. I porteføljen min kan du se noen av
           prosjektene jeg har jobbet med. Jeg håper du finner dem interessante.
         </p>
       </div>
-      <img src="/assets/Syver_Giswold_04_12x12.webp" alt="Portrettbilde av Syver Giswold, en ung mann med briller og grå genser" />
+      <img src="/assets/Syver_Giswold_04_12x12.webp" alt="Portrettbilde av Syver Giswold, en ung mann med briller og grå genser" itemprop="image"/>
     </article>
   </section>
   <section id="contact">
     <h2>Kontakt info</h2>
-    <div class="contactSection">
+    <div class="contactSection" itemscope itemtype="https://schema.org/ContactPoint">
       <div>
-        <p>
+        <p itemprop="description">
           Takk for at du besøker min portefølje. Jeg håper du likte å se på mine
           arbeider og ferdigheter.
         </p>
-        <p>
+        <p itemprop="description">
           Hvis du har lyst til å snakke med meg, så er du hjertelig velkommen.
           Det bare å ta kontakt med meg.
         </p>
         <ul>
-          <li><span class="bold">Tlf</span>971 04 751</li>
-          <li><span class="bold">E-post</span>SyverGiswold@gmail.com</li>
-          <li><span class="bold">Bosted</span>Sande i Vestfold</li>
+          <li><span class="bold">Tlf</span><span itemprop="telephone">+47 971 04 751</span></li>
+          <li><span class="bold">E-post</span><a href="mailto:SyverGiswold@gmail.com" itemprop="email">SyverGiswold@gmail.com</a></li>
+          <li><span class="bold">Bosted</span><span itemprop="address">Sande i Vestfold, Norge</span></li>
         </ul>
         <div class="link_icons">
-          <a href="https://github.com/SyverGiswold" target="_blank"
-            ><img src="/assets/github.svg" alt="lenke til github" /></a
-          >
-          <a href="https://www.linkedin.com/in/syver-giswold/" target="_blank"
-            ><img src="/assets/linkedin.svg" alt="lenke til linkedin" /></a
-          >
+          <a href="https://github.com/SyverGiswold" target="_blank" itemprop="url">
+            <img src="/assets/github.svg" alt="lenke til github" />
+          </a>
+          <a href="https://www.linkedin.com/in/syver-giswold/" target="_blank" itemprop="url">
+            <img src="/assets/linkedin.svg" alt="lenke til linkedin" />
+          </a>
         </div>
       </div>
       <div class="divider"></div>
       <div>
-        <form on:submit|preventDefault={handleSubmit}>
+        <form on:submit|preventDefault={handleSubmit} itemscope itemtype="https://schema.org/ContactPoint">
           <input
             type="hidden"
             name="access_key"
@@ -225,6 +249,7 @@
               name="name"
               placeholder="Navn Navnesen"
               required
+              itemprop="name"
             />
           </div>
           <div>
@@ -235,6 +260,7 @@
               name="email"
               placeholder="eksempel@e-post.no"
               required
+              itemprop="email"
             />
           </div>
           <div>
@@ -245,6 +271,7 @@
               placeholder="Send meg en melding"
               required
               rows="5"
+              itemprop="messageBody"
             />
           </div>
           <input type="submit" value="Send inn" />
@@ -360,6 +387,10 @@
   label {
     display: block;
     padding-bottom: 12px;
+  }
+
+  [itemprop="email"] {
+    color: var(--primary-text);
   }
 
   [type="submit"] {

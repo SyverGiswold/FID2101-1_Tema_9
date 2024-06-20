@@ -1,4 +1,4 @@
-.card{
+.card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 24px;
@@ -9,6 +9,47 @@
   color: var(--primary-text);
   transform-style: preserve-3d;
   transition: border 300ms ease, transform 300ms linear;
+  background-color: var(--primary-background);
+}
+
+.card::after {
+  content: "";
+  width: 95%;
+  height: 95%;
+  position: absolute;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  filter: blur(20px);
+  transform: translate(-50%, -45%) perspective(500px) translateZ(-50px);
+  transition: background-color 300ms ease;
+  opacity: 0.2;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  width: 130%;
+  height: 110%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%) perspective(500px) translateZ(-50px);
+  border-radius: var(--border-radius);
+  z-index: -1;
+  transition: background-color 300ms ease;
+  background-image: linear-gradient(hsl(140 98% 53% / 0.1) 1px, transparent 1px), linear-gradient(to right, hsl(140 98% 56% / 0.1) 1px, hsl(140 98% 56% / 0) 1px);
+  background-size: 50px 50px;
+  box-shadow: inset 0px 0px 20px 20px var(--primary-background);
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.card:hover::after {
+  background-color: var(--secondary-background);
+}
+
+.card:hover::before {
+  opacity: 1;
 }
 
 .card img {
@@ -21,7 +62,7 @@
 
 .card div,
 .card img {
-  transform: perspective(500px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1);
+  transform: perspective(500px) translateZ(0px);
   transition: transform 300ms linear;
 }
 
@@ -34,7 +75,7 @@
   margin-bottom: 0 !important;
 }
 
-.card .card_text > span {
+.card .card_text>span {
   margin-top: 2rem;
 }
 
@@ -43,9 +84,10 @@
 }
 
 @media (hover: hover) {
+
   .card:hover img,
   .card:hover div {
-    transform: perspective(500px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 15, 1);
+    transform: perspective(500px) translateZ(20px);
   }
 }
 
