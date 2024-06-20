@@ -44,7 +44,6 @@
     name="keywords"
     content="design ui, portefølje design, portefølje grafisk design, ux og ui design, ux og ui, ui og ux, ux, ui, Interaksjonsdesign, Brukergrensesnitt design, Brukeropplevelse design, Frontend utvikling, JavaScript, CSS, HTML, Responsive design, Webdesign, Webutvikling, Prototyping, Brukertesting, Designsystemer, Designprinsipper, Tilgjengelighet, Kreativ problemløsning, Syver, Giswold"
   />
-  <meta name="robots" content="index, follow" />
 
   <link rel="alternate" hreflang="no" href="https://syver-g.netlify.app/" />
 
