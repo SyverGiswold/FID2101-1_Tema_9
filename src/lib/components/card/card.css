@@ -14,8 +14,6 @@
 
 .card::after {
   content: "";
-  width: 95%;
-  height: 95%;
   position: absolute;
   background-color: transparent;
   top: 50%;
@@ -29,8 +27,6 @@
 .card::before {
   content: "";
   position: absolute;
-  width: 130%;
-  height: 110%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -45%) perspective(500px) translateZ(-50px);
@@ -46,10 +42,14 @@
 
 .card:hover::after {
   background-color: var(--secondary-background);
+  width: 95%;
+  height: 95%;
 }
 
 .card:hover::before {
   opacity: 1;
+  width: 130%;
+  height: 110%;
 }
 
 .card img {
@@ -87,7 +87,7 @@
 
   .card:hover img,
   .card:hover div {
-    transform: perspective(500px) translateZ(20px);
+    transform: perspective(500px) translateZ(24px);
   }
 }
 
