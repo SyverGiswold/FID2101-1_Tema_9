@@ -42,9 +42,8 @@
   >
   <meta
     name="keywords"
-    content="UX design, UI design, frontend-utvikler, JavaScript, CSS, HTML, responsivt design, brukeropplevelse, interaksjonsdesign, Syver Giswold, portefølje, webdesign, Sande i Vestfold"
+    content="interaksjonsdesign, ux design, frontend"
   >
-  <meta name="robots" content="index, follow">
 
   <link rel="alternate" hreflang="en" href="https://syver-g.netlify.app/en/" />
 
@@ -83,7 +82,7 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Syver Giswold",
-      "jobTitle": "Interaksjonsdesigner & Frontend-utvikler",
+      "jobTitle": "Interaksjonsdesigner",
       "description": "Se Syver Giswolds portefølje - en talentfull UX/UI designer & frontend-utvikler. Utforsk innovative designløsninger og ta kontakt for ditt neste prosjekt!",
       "url": "https://syver-g.netlify.app/",
       "image": "https://syver-g.netlify.app/assets/Syver_Giswold_link_preview.webp",
@@ -214,9 +213,9 @@
           Det bare å ta kontakt med meg.
         </p>
         <ul>
-          <li><span class="bold">Tlf</span><span itemprop="telephone">+47 971 04 751</span></li>
-          <li><span class="bold">E-post</span><a href="mailto:SyverGiswold@gmail.com" itemprop="email">SyverGiswold@gmail.com</a></li>
-          <li><span class="bold">Bosted</span><span itemprop="address">Sande i Vestfold, Norge</span></li>
+          <li><span class="bold">Tlf </span><span itemprop="telephone">+47 971 04 751</span></li>
+          <li><span class="bold">E-post </span><a href="mailto:SyverGiswold@gmail.com" itemprop="email">SyverGiswold@gmail.com</a></li>
+          <li><span class="bold">Bosted </span><span itemprop="address">Sande i Vestfold, Norge</span></li>
         </ul>
         <div class="link_icons">
           <a href="https://github.com/SyverGiswold" target="_blank" itemprop="url">
@@ -363,7 +362,7 @@
     background: none;
     padding: 12px;
     border-radius: var(--border-radius);
-    border: 4px solid var(--secondary-background);
+    border: 2px solid var(--secondary-background);
     line-height: 1.5;
     letter-spacing: 0.12rem;
     word-spacing: 0.16rem;
@@ -374,7 +373,7 @@
   textarea {
     background: none;
     border-radius: var(--border-radius);
-    border: 4px solid var(--secondary-background);
+    border: 2px solid var(--secondary-background);
     color: var(--primary-text);
     padding: 12px;
     line-height: 1.5;

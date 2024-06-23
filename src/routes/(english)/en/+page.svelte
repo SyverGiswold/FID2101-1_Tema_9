@@ -328,7 +328,7 @@
     background: none;
     padding: 12px;
     border-radius: var(--border-radius);
-    border: 4px solid var(--secondary-background);
+    border: 2px solid var(--secondary-background);
     line-height: 1.5;
     letter-spacing: 0.12rem;
     word-spacing: 0.16rem;
@@ -339,7 +339,7 @@
   textarea {
     background: none;
     border-radius: var(--border-radius);
-    border: 4px solid var(--secondary-background);
+    border: 2px solid var(--secondary-background);
     color: var(--primary-text);
     padding: 12px;
     line-height: 1.5;
