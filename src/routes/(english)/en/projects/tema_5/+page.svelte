@@ -13,7 +13,7 @@
 
   <meta name="description" content="Developing a shopping list app with JavaScript, focusing on user experience and accessibility. Learn about the design process, code examples, and try the live demo!">
 
-  <link rel="alternate" hreflang="no" href="https://syver-g.netlify.app/projects/tema_5" />
+  <link rel="alternate" hreflang="no" href="https://syver.vercel.app/projects/tema_5" />
 </svelte:head>
 
 <Header />

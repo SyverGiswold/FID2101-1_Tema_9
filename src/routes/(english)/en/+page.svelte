@@ -45,10 +45,10 @@
     content="design ui, portefølje design, portefølje grafisk design, ux og ui design, ux og ui, ui og ux, ux, ui, Interaksjonsdesign, Brukergrensesnitt design, Brukeropplevelse design, Frontend utvikling, JavaScript, CSS, HTML, Responsive design, Webdesign, Webutvikling, Prototyping, Brukertesting, Designsystemer, Designprinsipper, Tilgjengelighet, Kreativ problemløsning, Syver, Giswold"
   />
 
-  <link rel="alternate" hreflang="no" href="https://syver-g.netlify.app/" />
+  <link rel="alternate" hreflang="no" href="https://syver.vercel.app/" />
 
   <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="https://syver-g.netlify.app/en" />
+  <meta property="og:url" content="https://syver.vercel.app/en" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Syver's portfolio" />
   <meta
@@ -57,13 +57,13 @@
   />
   <meta
     property="og:image"
-    content="https://syver-g.netlify.app/assets/Syver_Giswold_link_preview.webp"
+    content="https://syver.vercel.app/assets/Syver_Giswold_link_preview.webp"
   />
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:domain" content="syver-g.netlify.app/" />
-  <meta property="twitter:url" content="https://syver-g.netlify.app/en" />
+  <meta property="twitter:domain" content="syver.vercel.app/" />
+  <meta property="twitter:url" content="https://syver.vercel.app/en" />
   <meta name="twitter:title" content="Syver's portfolio" />
   <meta
     name="twitter:description"
@@ -71,7 +71,7 @@
   />
   <meta
     name="twitter:image"
-    content="https://syver-g.netlify.app/assets/Syver_Giswold_link_preview.webp"
+    content="https://syver.vercel.app/assets/Syver_Giswold_link_preview.webp"
   />
 
   <!-- Meta Tags Generated via https://www.opengraph.xyz -->

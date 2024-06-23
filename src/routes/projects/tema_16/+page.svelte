@@ -13,7 +13,7 @@
 
   <meta name="description" content="Prosessdokumentasjon av en tilsynsrapport for Ygg & Lyng, med fokus på universell utforming og brukeropplevelse. Lær om testing, funn og løsninger.">
 
-  <link rel="alternate" hreflang="en" href="https://syver-g.netlify.app/en/projects/tema_16" />
+  <link rel="alternate" hreflang="en" href="https://syver.vercel.app/en/projects/tema_16" />
 </svelte:head>
 
 <Header />

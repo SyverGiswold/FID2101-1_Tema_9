@@ -45,10 +45,10 @@
     content="interaksjonsdesign, ux design, frontend"
   >
 
-  <link rel="alternate" hreflang="en" href="https://syver-g.netlify.app/en/" />
+  <link rel="alternate" hreflang="en" href="https://syver.vercel.app/en/" />
 
   <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="https://syver-g.netlify.app/">
+  <meta property="og:url" content="https://syver.vercel.app/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Syver's portefølje">
   <meta
@@ -57,13 +57,13 @@
   >
   <meta
     property="og:image"
-    content="https://syver-g.netlify.app/assets/Syver_Giswold_link_preview.webp"
+    content="https://syver.vercel.app/assets/Syver_Giswold_link_preview.webp"
   >
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:domain" content="syver-g.netlify.app">
-  <meta property="twitter:url" content="https://syver-g.netlify.app/">
+  <meta property="twitter:domain" content="syver.vercel.app">
+  <meta property="twitter:url" content="https://syver.vercel.app/">
   <meta name="twitter:title" content="Syver's portefølje">
   <meta
     name="twitter:description"
@@ -71,7 +71,7 @@
   >
   <meta
     name="twitter:image"
-    content="https://syver-g.netlify.app/assets/Syver_Giswold_link_preview.webp"
+    content="https://syver.vercel.app/assets/Syver_Giswold_link_preview.webp"
   >
 
   <!-- Meta Tags Generated via https://www.opengraph.xyz -->
@@ -84,8 +84,8 @@
       "name": "Syver Giswold",
       "jobTitle": "Interaksjonsdesigner",
       "description": "Se Syver Giswolds portefølje - en talentfull UX/UI designer & frontend-utvikler. Utforsk innovative designløsninger og ta kontakt for ditt neste prosjekt!",
-      "url": "https://syver-g.netlify.app/",
-      "image": "https://syver-g.netlify.app/assets/Syver_Giswold_link_preview.webp",
+      "url": "https://syver.vercel.app/",
+      "image": "https://syver.vercel.app/assets/Syver_Giswold_link_preview.webp",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Sande i Vestfold",

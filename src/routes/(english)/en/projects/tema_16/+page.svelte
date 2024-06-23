@@ -11,7 +11,7 @@
 
 	<meta name="description" content="Process documentation of an accessibility audit for Ygg & Lyng, focusing on universal design & usability. Learn about testing, findings and solutions.">
 
-	<link rel="alternate" hreflang="no" href="https://syver-g.netlify.app/projects/tema_16" />
+	<link rel="alternate" hreflang="no" href="https://syver.vercel.app/projects/tema_16" />
 </svelte:head>
 
 <Header />

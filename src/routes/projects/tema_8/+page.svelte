@@ -13,7 +13,7 @@
 
   <meta name="description" content="Utvikling av en tastaturvennlig rich text editor, inspirert av TinyMCE og CKEditor. Prosjektet dekker research, prototyping, brukertesting og kode.">
 
-  <link rel="alternate" hreflang="en" href="https://syver-g.netlify.app/en/projects/tema_8" />
+  <link rel="alternate" hreflang="en" href="https://syver.vercel.app/en/projects/tema_8" />
 </svelte:head>
 
 <Header />

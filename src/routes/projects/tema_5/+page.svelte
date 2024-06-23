@@ -13,7 +13,7 @@
 
   <meta name="description" content="Utvikling av en handleliste-app med JavaScript, fokusert på brukervennlighet og tilgjengelighet. Lær om designprosessen, kodeeksempler og prøv demoen!">
 
-  <link rel="alternate" hreflang="en" href="https://syver-g.netlify.app/en/projects/tema_5" />
+  <link rel="alternate" hreflang="en" href="https://syver.vercel.app/en/projects/tema_5" />
 </svelte:head>
 
 <Header />
