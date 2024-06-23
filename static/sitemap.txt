@@ -1,8 +1,8 @@
-https://syver-g.netlify.app/
-https://syver-g.netlify.app/en
-https://syver-g.netlify.app/projects/tema_8
-https://syver-g.netlify.app/en/projects/tema_8
-https://syver-g.netlify.app/projects/tema_5
-https://syver-g.netlify.app/en/projects/tema_5
-https://syver-g.netlify.app/projects/tema_16
-https://syver-g.netlify.app/en/projects/tema_16
+https://syver.vercel.app/
+https://syver.vercel.app/en
+https://syver.vercel.app/projects/tema_8
+https://syver.vercel.app/en/projects/tema_8
+https://syver.vercel.app/projects/tema_5
+https://syver.vercel.app/en/projects/tema_5
+https://syver.vercel.app/projects/tema_16
+https://syver.vercel.app/en/projects/tema_16

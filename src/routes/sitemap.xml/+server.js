@@ -8,52 +8,52 @@ export async function GET() {
 			xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
 		>
       <url>
-        <loc>https://syver-g.netlify.app/</loc>
+        <loc>https://syver.vercel.app/</loc>
         <lastmod>2024-05-30T13:50:26+02:00</lastmod>
         <priority>0.50</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://syver-g.netlify.app/en/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://syver.vercel.app/en/" />
       </url>
       <url>
-        <loc>https://syver-g.netlify.app/en/</loc>
+        <loc>https://syver.vercel.app/en/</loc>
         <lastmod>2024-05-30T13:50:26+02:00</lastmod>
         <priority>0.50</priority>
-        <xhtml:link rel="alternate" hreflang="no" href="https://syver-g.netlify.app" />
+        <xhtml:link rel="alternate" hreflang="no" href="https://syver.vercel.app" />
       </url>
       <url>
-        <loc>https://syver-g.netlify.app/projects/tema_8</loc>
+        <loc>https://syver.vercel.app/projects/tema_8</loc>
         <lastmod>2024-05-30T13:50:26+02:00</lastmod>
         <priority>0.20</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://syver-g.netlify.app/en/projects/tema_8" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://syver.vercel.app/en/projects/tema_8" />
       </url>
       <url>
-        <loc>https://syver-g.netlify.app/en/projects/tema_8</loc>
+        <loc>https://syver.vercel.app/en/projects/tema_8</loc>
         <lastmod>2024-05-30T13:50:26+02:00</lastmod>
         <priority>0.20</priority>
-        <xhtml:link rel="alternate" hreflang="no" href="https://syver-g.netlify.app/projects/tema_8" />
+        <xhtml:link rel="alternate" hreflang="no" href="https://syver.vercel.app/projects/tema_8" />
       </url>
       <url>
-        <loc>https://syver-g.netlify.app/projects/tema_5</loc>
+        <loc>https://syver.vercel.app/projects/tema_5</loc>
         <lastmod>2024-05-30T13:50:26+02:00</lastmod>
         <priority>0.20</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://syver-g.netlify.app/en/projects/tema_5" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://syver.vercel.app/en/projects/tema_5" />
       </url>
       <url>
-        <loc>https://syver-g.netlify.app/en/projects/tema_5</loc>
+        <loc>https://syver.vercel.app/en/projects/tema_5</loc>
         <lastmod>2024-05-30T13:50:26+02:00</lastmod>
         <priority>0.20</priority>
-        <xhtml:link rel="alternate" hreflang="no" href="https://syver-g.netlify.app/projects/tema_5" />
+        <xhtml:link rel="alternate" hreflang="no" href="https://syver.vercel.app/projects/tema_5" />
       </url>
       <url>
-        <loc>https://syver-g.netlify.app/en/projects/tema_16</loc>
+        <loc>https://syver.vercel.app/en/projects/tema_16</loc>
         <lastmod>2024-05-30T13:50:26+02:00</lastmod>
         <priority>0.20</priority>
-        <xhtml:link rel="alternate" hreflang="no" href="https://syver-g.netlify.app/projects/tema_16" />
+        <xhtml:link rel="alternate" hreflang="no" href="https://syver.vercel.app/projects/tema_16" />
       </url>
       <url>
-        <loc>https://syver-g.netlify.app/projects/tema_16</loc>
+        <loc>https://syver.vercel.app/projects/tema_16</loc>
         <lastmod>2024-05-30T13:50:26+02:00</lastmod>
         <priority>0.20</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://syver-g.netlify.app/en/projects/tema_16" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://syver.vercel.app/en/projects/tema_16" />
       </url>
     </urlset>`.trim(),
     {
