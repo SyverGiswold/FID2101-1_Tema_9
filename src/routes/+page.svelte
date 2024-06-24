@@ -36,6 +36,8 @@
 <svelte:head>
   <title>Syver Giswold - Interaksjonsdesigner & Frontend-utvikler</title>
 
+  <link rel="canonical" href="https://syver.vercel.app/" />
+
   <meta
     name="description"
     content="Se Syver Giswolds portefølje - en talentfull UX/UI designer & frontend-utvikler. Utforsk innovative designløsninger og ta kontakt for ditt neste prosjekt!"
