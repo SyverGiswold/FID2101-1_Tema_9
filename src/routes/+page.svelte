@@ -104,7 +104,7 @@
 <Header />
 
 <main>
-  <h1 class="sr-only">Syvers portefølje</h1>
+  <h1 class="sr-only">Syvers interaksjonsdesigner portefølje</h1>
   <section id="home" itemscope itemtype="https://schema.org/CreativeWork">
     <div>
       <h2 itemprop="name">Prosjekter</h2>
