@@ -11,6 +11,8 @@
 <svelte:head>
 	<title>Syver's portfolio - Shopping list app</title>
 
+  <link rel="canonical" href="https://syver.vercel.app/en/projects/tema_5" />
+
   <meta name="description" content="Developing a shopping list app with JavaScript, focusing on user experience and accessibility. Learn about the design process, code examples, and try the live demo!">
 
   <link rel="alternate" hreflang="no" href="https://syver-g.netlify.app/projects/tema_5" />

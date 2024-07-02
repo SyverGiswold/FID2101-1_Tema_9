@@ -10,6 +10,8 @@
 
 <svelte:head>
   <title>Syver's portefølje - Tekst app</title>
+  
+  <link rel="canonical" href="https://syver.vercel.app/projects/tema_8" />
 
   <meta name="description" content="Utvikling av en tastaturvennlig rich text editor, inspirert av TinyMCE og CKEditor. Prosjektet dekker research, prototyping, brukertesting og kode.">
 

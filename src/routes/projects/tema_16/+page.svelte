@@ -11,6 +11,8 @@
 <svelte:head>
   <title>Syver's portefølje - Universell utforming rapport</title>
 
+  <link rel="canonical" href="https://syver.vercel.app/projects/tema_16" />
+
   <meta name="description" content="Prosessdokumentasjon av en tilsynsrapport for Ygg & Lyng, med fokus på universell utforming og brukeropplevelse. Lær om testing, funn og løsninger.">
 
   <link rel="alternate" hreflang="en" href="https://syver-g.netlify.app/en/projects/tema_16" />
