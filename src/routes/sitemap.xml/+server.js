@@ -11,7 +11,7 @@ export async function GET() {
         <loc>https://syver.vercel.app/</loc>
         <lastmod>2024-05-30T13:50:26+02:00</lastmod>
         <priority>0.50</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://syver.vercel.app/en/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://syver.vercel.app/en" />
       </url>
       <url>
         <loc>https://syver.vercel.app/en/</loc>
