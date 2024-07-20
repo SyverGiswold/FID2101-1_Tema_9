@@ -36,6 +36,8 @@
 <svelte:head>
   <title>Syver Giswold - UX/UI Designer & Frontend Developer</title>
 
+  <link rel="canonical" href="https://syver.vercel.app/en" />
+
   <meta
     name="description"
     content="Explore Syver Giswold's portfolio - a talented UX/UI designer & frontend developer. Discover innovative design solutions. Contact me for your next project!"
