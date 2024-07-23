@@ -35,8 +35,8 @@
 
     <p>
       Lenke til rapport: <a
-        href="/assets/tema_16/ygg&lyng Tilsynsrapport.pdf"
-        target="_blank">ygg&lyng tilsynsrapport</a
+        href="https://docs.google.com/document/d/1GoeRKrJfDMoHsfXANK9_JwWSpeQp-3XHjLNhlP8mjhM/edit?usp=sharing"
+        target="_blank">https://docs.google.com/document/d/1GoeRKrJfDMoHsfXANK9_JwWSpeQp-3XHjLNhlP8mjhM/edit?usp=sharing</a
       >
     </p>
     <p>
