@@ -3,7 +3,12 @@ import { json } from '@sveltejs/kit';
 const API_KEY = '266ebca40a5f45318ce8508a623c9559';
 const SITE_URL = 'https://syver.vercel.app';
 
-export async function POST() {
+export async function GET(event) {
+  const authHeader = event.request.headers.get('authorization');
+  if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+    return new Response('Unauthorized', { status: 401 });
+  }
+
   const urls = [
     '/',
     '/en',
