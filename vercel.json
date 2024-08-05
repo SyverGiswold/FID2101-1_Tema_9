@@ -1,6 +1,6 @@
 {
   "crons": [{
-    "path": "/api/cron/indexnow",
+    "path": "/api/submit-urls",
     "schedule": "0 0 * * 1"
   }]
 }
